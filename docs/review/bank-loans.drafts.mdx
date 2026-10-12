@@ -16,14 +16,18 @@ Source: the supplied UI recording, **Bank at 01:55–02:03**.
 - Small Business Loan, Fleet Expansion Loan, and Commercial Loan cards are visible.
 - Deposit fees, bank interest, caps, and interval labels are also shown; these are not yet confirmed universal rules.
 
+## Confirmed by the developer
+
+- Loan and financing payments use the Financial Management selection, including automatic fallback, while offline.
+- They continue throughout offline time without pausing or an offline time cap.
+- Offline earnings remain in escrow until claimed and cannot fund payments while unclaimed.
+
 ## Questions for the developer
 
 1. Confirm the company-level requirement, amount/range, interest calculation, term, and installment for each bank loan.
 2. Can upgrades change loan availability, amounts, rates, or concurrent loan limits?
 3. Confirm deposit fee, interest rate, interest interval, eligible balance cap, and whether interest runs offline.
 4. How do early repayment, missed payments, and repossession work?
-5. Does Financial Management AUTO fallback also apply offline to loan and finance payments, or must all offline payments use Bank?
-6. Do payments continue without an offline cap, and is offline delivery income unavailable in escrow until login?
 
 ## Publication checklist
 
