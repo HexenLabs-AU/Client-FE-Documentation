@@ -9,8 +9,7 @@
 (() => {
   const attribution =
     " Original documentation and design contributions by HexenLabs. " +
-    "Copyright (c) 2026 HexenLabs — https://hexenlabs.com.au. " +
-    "Attribution requirements: see the source repository LICENSE. ";
+    "Copyright (c) 2026 HexenLabs — https://hexenlabs.com.au. ";
   function addAttribution() {
     const target = document.body || document.documentElement;
 
