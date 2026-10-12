@@ -1,5 +1,5 @@
 {
-  "groups": [
+  "pages": [
     {
       "group": "Getting Started",
       "pages": [
@@ -20,6 +20,7 @@
       "pages": [
         "docs/developer/update-log"
       ]
-    }
+    },
+    "snippets/corporation-offline"
   ]
 }
