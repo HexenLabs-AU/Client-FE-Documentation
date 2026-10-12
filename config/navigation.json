@@ -49,7 +49,8 @@
       "pages": [
         "docs/gameplay/corporations",
         "docs/gameplay/corporation-businesses",
-        "docs/gameplay/corporation-contracts"
+        "docs/gameplay/corporation-contracts",
+        "docs/gameplay/corporation-management"
       ]
     },
     {
@@ -72,7 +73,9 @@
       "group": "Drafts for review",
       "hidden": true,
       "expanded": false,
-      "pages": []
+      "pages": [
+        "docs/review/first-delivery.drafts"
+      ]
     }
   ]
 }
