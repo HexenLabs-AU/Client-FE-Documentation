@@ -22,9 +22,14 @@
   const selected = shuffled.slice(0, 3);
 
   function updateFooterCodes() {
-    const links = Array.from(document.querySelectorAll("#footer a[href]")).filter(
+    const codePageLinks = Array.from(document.querySelectorAll("#footer a[href]")).filter(
       (link) => new URL(link.href, location.href).pathname === "/docs/gettingstarted/codes"
     );
+    const links = codePageLinks.filter(
+      (link) => activeCodes.some((item) => item.code === link.textContent.trim())
+    );
+    const seeAll = codePageLinks.find((link) => link.textContent.trim() === "See all codes →");
+    if (seeAll) seeAll.setAttribute("data-fe-all-codes", "");
     if (links.length !== 3) return;
     links.forEach((link, index) => {
       const item = selected[index];

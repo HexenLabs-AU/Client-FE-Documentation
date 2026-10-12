@@ -111,3 +111,24 @@
     transition: none;
   }
 }
+
+/* Footer action stays separate from randomized code links. */
+#footer a[data-fe-all-codes] {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  margin-top: 0.25rem;
+  padding: 0.4rem 0.7rem;
+  border: 1px solid var(--fe-border);
+  border-radius: 7px;
+  background: var(--fe-surface);
+  font-size: 0.8125rem;
+  font-weight: 600;
+}
+#footer a[data-fe-all-codes]:hover {
+  background: var(--fe-hover);
+}
+#footer a[data-fe-all-codes]:focus-visible {
+  outline: 2px solid #2563eb;
+  outline-offset: 3px;
+}

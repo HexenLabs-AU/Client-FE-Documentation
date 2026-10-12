@@ -113,6 +113,10 @@
           {
             "label": "ROADTRIP",
             "href": "/docs/gettingstarted/codes"
+          },
+          {
+            "label": "See all codes →",
+            "href": "/docs/gettingstarted/codes"
           }
         ]
       },
