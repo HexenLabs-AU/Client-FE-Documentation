@@ -1,9 +1,3 @@
----
-title: "Dispatchers"
-description: "Review dispatcher candidates, salary, rules, and driver meeting controls."
-sidebarTitle: "Dispatchers"
----
-
 A dispatcher helps organize work for your drivers. Open **Staff → Dispatcher** to review your current dispatcher or available candidates.
 
 ## Compare a candidate
@@ -31,32 +25,30 @@ Open **Staff → Dispatcher → Advanced Controls → Open Rules**. These contro
   />
 </Frame>
 
-_Example settings shown. Choose the rules that suit your company._
-
 ### Filter routes and loads
 
-| Control | What it does |
-| --- | --- |
-| Avoid Storms | Skip loads that start or end in a state currently affected by a storm. |
-| Wait for Return Freight | Wait for a load in the delivery state before leaving empty. |
-| Skip Loads That Lose Money | Require pay after the driver's cut, fuel, and wear to be above zero. |
-| Minimum Lane Rate | Choose Any, Average+, or Top Lanes to filter for better rates. |
-| Minimum Load | Choose Any, Half Full, or Full to control how much of the truck is used. |
-| Maximum Trip Distance | Choose Any, 600 mi, 1,000 mi, or 1,500 mi to limit trip length. |
-| Empty Run to a Pickup | Choose None, 150 mi, 350 mi, or 600 mi. None keeps the driver in their current state. |
-| Driving Style | Choose Cautious, Normal, or Aggressive. Cautious is slower and uses less fuel and wear; Aggressive is faster with more of each. |
-| Keep a Fuel Reserve | Choose Off, 25%, or 50%. A trip must leave the selected share of the shared fuel reserve. |
-| Hold Worn Trucks | Choose Off, 60%, or 75%. Park trucks whose worst part is below the chosen condition until repaired. |
-| Stay in Home Region | Take loads ending in your headquarters' region. |
+<Accordion title="All route and load filters">
+  | Control | What it does |
+  | --- | --- |
+  | Avoid Storms | Skip loads that start or end in a state currently affected by a storm. |
+  | Wait for Return Freight | Wait for a load in the delivery state before leaving empty. |
+  | Skip Loads That Lose Money | Require pay after the driver's cut, fuel, and wear to be above zero. |
+  | Minimum Lane Rate | Choose Any, Average+, or Top Lanes to filter for better rates. |
+  | Minimum Load | Choose Any, Half Full, or Full to control how much of the truck is used. |
+  | Maximum Trip Distance | Choose Any, 600 mi, 1,000 mi, or 1,500 mi to limit trip length. |
+  | Empty Run to a Pickup | Choose None, 150 mi, 350 mi, or 600 mi. None keeps the driver in their current state. |
+  | Driving Style | Choose Cautious, Normal, or Aggressive. Cautious is slower and uses less fuel and wear; Aggressive is faster with more of each. |
+  | Keep a Fuel Reserve | Choose Off, 25%, or 50%. A trip must leave the selected share of the shared fuel reserve. |
+  | Hold Worn Trucks | Choose Off, 60%, or 75%. Park trucks whose worst part is below the chosen condition until repaired. |
+  | Stay in Home Region | Take loads ending in your headquarters' region. |
 
-<Frame>
-  <img
-    src="/images/guides/advanced-dispatcher-rules.png"
-    alt="Advanced Dispatcher filters for lane rate, load size, distances, driving style, fuel reserve, truck condition, and home region"
-  />
-</Frame>
-
-_The lower section of Advanced Dispatcher settings._
+  <Frame>
+    <img
+      src="/images/guides/advanced-dispatcher-rules.png"
+      alt="Advanced Dispatcher filters for lane rate, load size, distances, driving style, fuel reserve, truck condition, and home region"
+    />
+  </Frame>
+</Accordion>
 
 ### Understand rule exceptions
 
@@ -85,15 +77,11 @@ Open **Staff → Dispatcher → Driver Meetings → Schedule Meeting**, then cho
   />
 </Frame>
 
-_Use the current meeting panel for your company's price. The percentages above use the panel's performance labels._
-
-## Driver meeting screen
-
-<Frame>
-  <img
-    src="/images/guides/driver-meetings.webp"
-    alt="Dispatcher staff screen with driver meeting and advanced control buttons"
-  />
-</Frame>
-
-_Example company shown; your balances, prices, and available options may differ._
+<Accordion title="Find the meeting and advanced controls">
+  <Frame>
+    <img
+      src="/images/guides/driver-meetings.webp"
+      alt="Dispatcher staff screen with driver meeting and advanced control buttons"
+    />
+  </Frame>
+</Accordion>
