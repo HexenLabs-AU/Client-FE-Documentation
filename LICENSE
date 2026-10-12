@@ -1,5 +1,5 @@
 HexenLabs Documentation Attribution License
-Version 1.0 — 13 October 2026
+Version 1.1 — 13 October 2026
 
 Copyright (c) 2026 HexenLabs
 https://hexenlabs.com.au
@@ -11,6 +11,16 @@ custom styles, and other original contributions in this repository for which
 HexenLabs holds the relevant rights ("Covered Work"). They do not claim rights
 over game facts, Fleet Empire's game, names, logos, screenshots, or other
 third-party material.
+
+Ownership credits:
+- HexenLabs: original documentation writing, organization, page layouts, and
+  custom design contributions, to the extent HexenLabs holds those rights.
+- Fleet Empire's creators and respective rights holders: the game, its
+  mechanics, supplied game content, branding, logos, and in-game screenshots.
+- Mintlify and other third parties: their starter material, software, and
+  other contributions, under their respective licenses.
+
+These credits distinguish contributions; they do not transfer ownership.
 
 2. Permission subject to attribution
 
@@ -38,6 +48,16 @@ made; this does not prevent contributors from receiving credit for their own
 changes.
 
 HexenLabs may agree to different attribution arrangements in writing.
+
+To request permission to remove or change HexenLabs attribution, email
+abuse@hexenlabs.com.au. Include your name or organization, the project or
+repository URL, the material you want to use, the proposed attribution change,
+and how you intend to use or distribute the material.
+
+Submitting a request does not grant a waiver. Keep the required attribution
+unless and until HexenLabs gives explicit written approval. Any approval
+applies only to the material, uses, and conditions stated in that approval;
+it does not waive requirements for third-party material.
 
 4. Existing and third-party rights
 
