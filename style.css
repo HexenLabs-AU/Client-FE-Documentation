@@ -146,3 +146,39 @@
   max-width: none !important;
   object-fit: contain;
 }
+
+/* Comfortable reading rhythm without changing the native page layout. */
+#content p {
+  line-height: 1.75;
+}
+#content li {
+  line-height: 1.7;
+}
+#content table th,
+#content table td {
+  vertical-align: top;
+  line-height: 1.6;
+}
+#content .frame [data-component-part="frame-caption"],
+#content .frame + p:has(> em:only-child),
+#content div:has(> .frame) + p:has(> em:only-child) {
+  font-size: 0.875rem;
+}
+#content p a,
+#content li a,
+#content td a {
+  text-underline-offset: 0.18em;
+}
+#content p a:focus-visible,
+#content li a:focus-visible,
+#content td a:focus-visible {
+  outline: 2px solid #2563eb;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+@media (max-width: 640px) {
+  #content table th,
+  #content table td {
+    padding: 0.65rem 0.7rem;
+  }
+}
