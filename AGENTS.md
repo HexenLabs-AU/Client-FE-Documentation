@@ -55,7 +55,7 @@ Use routes from the current navigation tree. Existing guide paths are nested und
 - Target new players: explain the purpose, then use exact observed menu labels and steps.
 - Use the supplied UI recording and explicit developer confirmations as sources. A screen from an established company is not a universal starter requirement or price.
 - License and bank-loan levels, costs, and terms require developer confirmation. Financing varies with company level and upgrades; explain the dependency without inventing fixed thresholds.
-- Put uncertain procedures or rules in a suggested-name.drafts.mdx file under docs/review. Mark these pages hidden and noindex, and keep their group hidden. Hidden pages are not access-controlled; do not place private information in them.
+- Put uncertain procedures or rules in a suggested-name.drafts.mdx file under docs/review. The developer has requested all review drafts in sidebar rotation: keep the Drafts for review group visible and collapsed, label pages Review (or Deferred), and retain noindex. Clearly separate confirmed facts from open questions; visible drafts do not make uncertain rules confirmed. Do not place private information in review pages.
 - Each draft must include its recording timestamps, observations, and specific questions. Never present an uncompleted action as a tested walkthrough.
 - Place useful screenshots visibly beside related instructions. Reserve expandable blocks for secondary images. Keep text descriptions complete, include meaningful alt text and captions for example values, and provide MDX comments where replacement images can be added.
 - Use a soft blue-gray light background (#EEF3F9), blue accents, and the native grid decoration. Preserve readable contrast.

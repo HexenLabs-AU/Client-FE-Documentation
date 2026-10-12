@@ -82,7 +82,7 @@
     },
     {
       "group": "Drafts for review",
-      "hidden": true,
+      "hidden": false,
       "expanded": false,
       "pages": [
         "docs/review/first-delivery.drafts",
