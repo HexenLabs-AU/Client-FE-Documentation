@@ -49,9 +49,10 @@
   },
   "background": {
     "color": {
-      "light": "#FFFFFF",
+      "light": "#EEF3F9",
       "dark": "#111827"
-    }
+    },
+    "decoration": "grid"
   },
   "appearance": {
     "default": "light"
@@ -84,5 +85,9 @@
   },
   "fonts": {
     "family": "Inter"
+  },
+  "description": "Beginner-friendly Fleet Empire guides for building your fleet, hiring staff, finding freight, and managing your trucking company.",
+  "search": {
+    "prompt": "What would you like to do?"
   }
 }

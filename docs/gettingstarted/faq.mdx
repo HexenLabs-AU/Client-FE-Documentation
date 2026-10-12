@@ -1,14 +1,28 @@
 ---
-title: "Frequently Asked Questions"
+title: "Frequently asked questions"
 sidebarTitle: "FAQ"
-description: "Answers to common questions about Fleet Empire, development, and gameplay."
+description: "Answers about getting started, progression, offline payments, and development."
 ---
-
-import CorporationOffline from "/snippets/corporation-offline.mdx";
 
 Find answers about the game's development, progression, and offline payments.
 
 <AccordionGroup>
+  <Accordion title="Where should I start?">
+    Open **Fleet → Dealership → Small Vehicles → Cargo Van → Purchase**. Open **Headquarters** and assign the van to **yourself**. Select **Your Truck** in **Dispatch → Manual Dispatch**. Review a load, select **Dispatch Load**, and wait for delivery. Rewards are credited when the load is delivered. You can hire staff later as you expand.
+
+    Follow [Start your company](/docs/gettingstarted/how-to-play) for preparation and [Dispatch](/docs/gameplay/dispatch) to learn how to compare and review freight.
+  </Accordion>
+
+  <Accordion title="Why can't I buy a vehicle or use financing yet?">
+    Availability depends on the requirements shown in your game. Some equipment needs a license. Truck financing requires a **credit score of at least 500**, and its availability also varies with company level and upgrades.
+
+    Check [Company upgrades and licenses](/docs/gameplay/upgrades-and-licenses) and the current dealership or Bank offer rather than assuming one level or price applies to every company.
+  </Accordion>
+
+  <Accordion title="Where do I redeem codes?">
+    Open **Settings**, find **Redeem Code**, enter the code, and select **Redeem**. Check [Codes](/docs/gettingstarted/codes) for announced rewards and driver-slot requirements.
+  </Accordion>
+
   <Accordion title="What inspired you to make this game?">
     I'm a truck driver and a part-time software engineer. While playing Roblox, I noticed a gap: trucking games focused on driving, with little attention to the business and management side.
 
@@ -40,22 +54,30 @@ Find answers about the game's development, progression, and offline payments.
   </Accordion>
 
   <Accordion title="Why were my trucks repossessed?">
-    You need enough money in your **Bank** to cover all loan and finance payments while you're offline.
+    **Missing two consecutive loan or financing payments causes trucks to be taken to cover the loan. There is no set order for which trucks are taken.**
 
-    Money earned offline goes into **escrow**, rather than directly into your Bank. You claim those earnings when you come back online, so they aren't available to cover payments while you're away.
+    Loan and financing payments follow your settings in **Bank → Financial Management**, including the selected source and automatic fallback. Keep enough funds available through those settings to cover payments while you're offline.
+
+    Delivery earnings from offline work go into **escrow**. You claim those earnings when you come back online, so they aren't available to cover payments while you're away.
 
     **Offline loan and finance payments are not capped.** Payments continue for as long as you're offline.
 
-    Before logging out, make sure your Bank has enough money to cover the time you expect to be away.
+    Before logging out, review the **Loan & Financing Payments** source in Financial Management and keep enough accessible funds to cover the time you expect to be away.
 
-    See [Corporations](/docs/gameplay/corporations) for the separate rules that apply to corporation member loans.
+    For corporation member loans, **two failed payments trigger repossession**. See [Corporation loans](/docs/gameplay/corporation-management#review-member-loans) for requesting terms and approval.
   </Accordion>
 
-  <Accordion title="Do corporation contracts work offline?">
-    <CorporationOffline />
+  <Accordion title="Can I repay a loan or truck financing early?">
+    Yes. You can repay loans and truck financing early, but **the full precalculated interest is still payable**. Early repayment does not reduce that interest.
+  </Accordion>
 
-    This is intentional.
+  <Accordion title="Does bank savings interest continue offline?">
+    Yes. Bank savings earn **1% every three real hours** on the **first \$50,000,000** of your bank balance, including while you are offline.
+  </Accordion>
 
-    I estimate that supporting offline progress for these multiplayer contracts would require processing more than 40,000 offline player accounts in the background, creating unnecessary server load and lag.
+  <Accordion title="Do contracts work offline?">
+    **No contracts progress offline.** Business deals, Federal Contracts, and corporation contracts all require online progress.
+
+    Ordinary automatic freight dispatch can still work offline. See [Contracts](/docs/gameplay/contracts#offline-contract-progress).
   </Accordion>
 </AccordionGroup>

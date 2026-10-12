@@ -1,20 +1,68 @@
 {
   "groups": [
     {
+      "group": "Limited-time events",
+      "icon": "ghost",
+      "expanded": true,
+      "pages": [
+        "docs/events/halloween"
+      ]
+    },
+    {
       "group": "Getting Started",
       "pages": [
         "docs/index",
+        "docs/gettingstarted/how-to-play",
+        "docs/gettingstarted/interface-tour",
         "docs/gettingstarted/codes",
-        "docs/gettingstarted/game-passes",
         "docs/gettingstarted/faq"
       ]
     },
     {
-      "group": "Gameplay",
+      "group": "Your company",
+      "pages": [
+        "docs/gameplay/headquarters",
+        "docs/gameplay/contracts",
+        "docs/gameplay/bank",
+        "docs/gameplay/insurance",
+        "docs/gettingstarted/game-passes",
+        "docs/gameplay/upgrades-and-licenses",
+        "docs/gameplay/settings",
+        "docs/gameplay/leaderboards-and-logs",
+        "docs/gameplay/shop-and-boosts"
+      ],
+      "expanded": false
+    },
+    {
+      "group": "Fleet and deliveries",
+      "pages": [
+        "docs/gameplay/fleet-and-dealership",
+        "docs/gameplay/vehicle-upgrades",
+        "docs/gameplay/dispatch",
+        "docs/gameplay/marketplace",
+        "docs/gameplay/tolls"
+      ],
+      "expanded": false
+    },
+    {
+      "group": "Staff",
+      "pages": [
+        "docs/gameplay/drivers",
+        "docs/gameplay/dispatchers",
+        "docs/gameplay/fleet-manager",
+        "docs/gameplay/escort-crew"
+      ],
+      "expanded": false
+    },
+    {
+      "group": "Corporations",
       "pages": [
         "docs/gameplay/corporations",
-        "docs/gameplay/tolls"
-      ]
+        "docs/gameplay/corporation-businesses",
+        "docs/gameplay/corporation-contracts",
+        "docs/gameplay/corporation-management"
+      ],
+      "expanded": false
     },
     {
       "group": "Development",
@@ -30,6 +78,25 @@
         "snippets/alpha-notice",
         "snippets/launch-codes",
         "snippets/community-links"
+      ]
+    },
+    {
+      "group": "Drafts for review",
+      "hidden": false,
+      "expanded": false,
+      "pages": [
+        "docs/review/first-delivery.drafts",
+        "docs/review/licenses.drafts",
+        "docs/review/bank-loans.drafts",
+        "docs/review/truck-financing.drafts",
+        "docs/review/marketplace.drafts",
+        "docs/review/insurance.drafts",
+        "docs/review/contracts.drafts",
+        "docs/review/corporation-rules.drafts",
+        "docs/review/branches-and-storage.drafts",
+        "docs/review/staff-and-upgrades.drafts",
+        "docs/review/shop-prices-and-rewards.drafts",
+        "docs/review/halloween.drafts"
       ]
     }
   ]

@@ -9,6 +9,7 @@ Fleet Empire is a Roblox trucking management game. This site uses Mintlify, MDX 
 - Write concise sentences in active voice. Address the player as you.
 - Use the developer's first-person voice for personal FAQ answers only.
 - Keep gameplay amounts, restrictions, exceptions, and code names accurate.
+- The developer's scope is practical beginner help. Do not request detailed formulas, hiring odds, upgrade tiers, or internal algorithms just to fill a draft. Direct players to current live values. Keep only essential unresolved gameplay questions in review drafts; mark resolved records clearly.
 - Do not invent code availability, expiration dates, redemption steps, production intervals, or game pass benefits.
 - Keep roadmap plans separate from released gameplay.
 - Historical changelog entries must stay self-contained.
@@ -16,7 +17,8 @@ Fleet Empire is a Roblox trucking management game. This site uses Mintlify, MDX 
 ## Page design
 
 - Use short introductions and sentence case headings.
-- Keep the homepage wide and short: one Play card, four guide cards, and useful links.
+- Keep the homepage wide and short: one Play card, four guide cards, and useful links. Current limited-time events may have a featured seasonal panel above the starter guides and an expanded navigation group near the top.
+- Event pages may use a localized seasonal accent panel, supported by real UI screenshots. Keep the site-wide palette unchanged. Confirm event dates, earning rules, and item persistence before documenting them.
 - Keep game passes and code rewards on their dedicated pages.
 - Use tables for prices, rewards, and requirements.
 - Reserve warnings for missed rewards, financial loss, loans, and contract deadlines.
@@ -48,3 +50,19 @@ Shared content is hidden from public navigation. Do not import changing rules in
 ## Links and verification
 
 Use routes from the current navigation tree. Existing guide paths are nested under docs/. Check every internal link and snippet import before saving. Check frontmatter through node metadata tools and inspect the final diff.
+
+## Evidence and review drafts
+
+- Target new players: explain the purpose, then use exact observed menu labels and steps.
+- Use the supplied UI recording and explicit developer confirmations as sources. A screen from an established company is not a universal starter requirement or price.
+- License and bank-loan levels, costs, and terms require developer confirmation. Financing varies with company level and upgrades; explain the dependency without inventing fixed thresholds.
+- Put uncertain procedures or rules in a suggested-name.drafts.mdx file under docs/review. The developer has requested all review drafts in sidebar rotation: keep the Drafts for review group visible and collapsed, label pages Review (or Deferred), and retain noindex. Clearly separate confirmed facts from open questions; visible drafts do not make uncertain rules confirmed. Do not place private information in review pages.
+- Each draft must include its recording timestamps, observations, and specific questions. Never present an uncompleted action as a tested walkthrough.
+- Place useful screenshots visibly beside related instructions. Reserve expandable blocks for secondary images. Keep text descriptions complete, include meaningful alt text and captions for example values, and provide MDX comments where replacement images can be added.
+- Use a soft blue-gray light background (#EEF3F9), blue accents, and the native grid decoration. Preserve readable contrast.
+- Driver hiring previews with odds and the next five purchases are specific to Australia/UK; describe other regions as random rolls.
+- Start beginner guides with the Cargo Van assigned to the player. Dispatch Load starts a delivery; rewards arrive when it is delivered. Do not require a fixed RNG load as a tutorial example.
+- Publish only the minimum credit score of 500 required for financing. Do not list score bands, score-based terms, or rating-change rules. Direct players to the current in-game offer.
+- Financing starts with three slots and caps at eight. Both company levels and Expanded Credit upgrades add slots.
+- Use a subtle native grid background. Preserve readable space, blue accents, Inter, and the current logo sizing.
+- Keep public navigation grouped by player task: Getting Started, Your company, Fleet and deliveries, Staff, Corporations, Development.

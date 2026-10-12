@@ -1,0 +1,58 @@
+---
+title: "Bank loan eligibility and terms — draft"
+description: "Confirmed developer rules and the scope of the beginner guide."
+hidden: false
+noindex: true
+tag: "Resolved"
+---
+
+<Note>
+  **Resolved review record.** The bank-rule questions below have been resolved. Keep this review page as a record of developer confirmations; current player guidance is on the Bank page.
+</Note>
+
+## Evidence to review
+
+Source: the supplied UI recording, **Bank at 01:55–02:03**.
+
+- Small Business Loan, Fleet Expansion Loan, and Commercial Loan cards are visible.
+- The developer's follow-up confirms the deposit fee and upfront loan interest; the supplied Bank balance screenshot confirms savings interest and its cap.
+
+## Confirmed by the developer
+
+- Loan and financing payments use the Financial Management selection, including automatic fallback, while offline.
+- They continue throughout offline time without pausing or an offline time cap.
+- Offline earnings remain in escrow until claimed and cannot fund payments while unclaimed.
+
+## Confirmed by the supplied loan screenshot
+
+| Loan | Minimum company level | Amount | Interest shown | Term | Monthly payment |
+| --- | --: | --: | --: | --- | --: |
+| Small Business Loan | 3 | \$100,000 | 6% | 12 months | \$8,834 |
+| Fleet Expansion Loan | 6 | \$600,000 | 8% | 24 months | \$27,000 |
+| Commercial Loan | 8 | \$2,500,000 | 10% | 36 months | \$76,389 |
+
+The developer confirmed **one game month equals one real hour**. The screenshot labels rates as Interest, not APR.
+
+## Confirmed loan interest and bank savings
+
+- Loan interest is precalculated and added to the total repayment amount.
+- Bank deposits have a **3% fee**.
+- Bank savings earn **1% every three real hours**, on the **first \$50,000,000** of the bank balance, including while offline.
+- Missing **two consecutive loan or financing payments** causes **trucks** to be taken to cover the loan. There is **no set seizure order**.
+- Loans and financing can be repaid early, but the **full precalculated interest remains payable**.
+- Withdrawals are free, as shown in the Bank interface.
+
+## Review status
+
+The developer confirmed that the three bank-loan offers are **fixed**. Upgrades do not change the offer amounts or rates. No unanswered bank-rule questions remain on this page.
+
+<Accordion title="See the in-game screen">
+  <Frame>
+    <img
+      src="/images/guides/bank.webp"
+      alt="Fleet Empire bank interface"
+    />
+  </Frame>
+
+  Recorded with an existing company. Your balance, available options, prices, and limits may differ.
+</Accordion>
