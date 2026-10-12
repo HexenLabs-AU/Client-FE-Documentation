@@ -1,6 +1,14 @@
 {
   "groups": [
     {
+      "group": "Limited-time events",
+      "icon": "ghost",
+      "expanded": true,
+      "pages": [
+        "docs/events/halloween"
+      ]
+    },
+    {
       "group": "Getting Started",
       "pages": [
         "docs/index",
@@ -88,7 +96,8 @@
         "docs/review/branches-and-storage.drafts",
         "docs/review/staff-and-upgrades.drafts",
         "docs/review/shop-prices-and-rewards.drafts",
-        "docs/review/mobile-and-driving.drafts"
+        "docs/review/mobile-and-driving.drafts",
+        "docs/review/halloween.drafts"
       ]
     }
   ]
