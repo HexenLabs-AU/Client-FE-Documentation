@@ -9,6 +9,7 @@ Fleet Empire is a Roblox trucking management game. This site uses Mintlify, MDX 
 - Write concise sentences in active voice. Address the player as you.
 - Use the developer's first-person voice for personal FAQ answers only.
 - Keep gameplay amounts, restrictions, exceptions, and code names accurate.
+- The developer's scope is practical beginner help. Do not request detailed formulas, hiring odds, upgrade tiers, or internal algorithms just to fill a draft. Direct players to current live values. Keep only essential unresolved gameplay questions in review drafts; mark resolved records clearly.
 - Do not invent code availability, expiration dates, redemption steps, production intervals, or game pass benefits.
 - Keep roadmap plans separate from released gameplay.
 - Historical changelog entries must stay self-contained.
