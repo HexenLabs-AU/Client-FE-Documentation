@@ -1,21 +1,76 @@
+HexenLabs Documentation Attribution License
+Version 1.0 — 13 October 2026
+
+Copyright (c) 2026 HexenLabs
+https://hexenlabs.com.au
+
+1. Scope
+
+These terms apply only to original documentation text, original page layouts,
+custom styles, and other original contributions in this repository for which
+HexenLabs holds the relevant rights ("Covered Work"). They do not claim rights
+over game facts, Fleet Empire's game, names, logos, screenshots, or other
+third-party material.
+
+2. Permission subject to attribution
+
+You may use, copy, publish, distribute, and modify the Covered Work, including
+for commercial purposes, provided that you comply with the attribution
+requirements below. Use, copying, publication, distribution, or modification
+without the required attribution is not permitted under this license.
+
+3. Required attribution
+
+Retain this license and the following notice in the source repository or
+accompanying documentation for any copy or modified version of the Covered Work:
+
+"Original documentation and design contributions by HexenLabs.
+Copyright (c) 2026 HexenLabs — https://hexenlabs.com.au"
+
+If distributing only part of the Covered Work, include this license and notice
+with that part. If publishing a compiled or hosted documentation site, retain
+them in the site's source repository or accompanying project documentation.
+A visible credit on the rendered website is not required.
+
+Do not remove or obscure the HexenLabs attribution or claim sole authorship of
+the original Covered Work. Modified versions must identify that changes were
+made; this does not prevent contributors from receiving credit for their own
+changes.
+
+HexenLabs may agree to different attribution arrangements in writing.
+
+4. Existing and third-party rights
+
+Third-party material remains subject to its own licenses and permissions.
+Preserve applicable third-party copyright and license notices. In particular,
+Mintlify starter material remains available under the MIT license reproduced
+below; the HexenLabs attribution conditions do not restrict rights granted
+under that license.
+
+These terms do not revoke permissions previously granted for material already
+distributed under another license. They do not limit uses allowed by applicable
+copyright exceptions or other rights independent of this license.
+
+No rights to any trademark, logo, game, or other third-party property are granted
+by this license, and attribution does not imply endorsement.
+
+5. Disclaimer
+
+To the extent permitted by applicable law, the Covered Work is provided as is,
+without warranties, and HexenLabs is not liable for loss arising from its use.
+Nothing in this license excludes rights or liability that cannot lawfully be
+excluded.
+
+---------------------------------------------------------------------------
+Mintlify starter material — original MIT notice
+---------------------------------------------------------------------------
+
 MIT License
 
 Copyright (c) 2026 Mintlify
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
