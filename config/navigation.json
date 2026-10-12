@@ -5,6 +5,7 @@
       "pages": [
         "docs/index",
         "docs/gettingstarted/codes",
+        "docs/gettingstarted/game-passes",
         "docs/gettingstarted/faq"
       ]
     },
@@ -21,6 +22,9 @@
         "docs/developer/update-log"
       ]
     },
-    "snippets/corporation-offline"
+    "snippets/corporation-offline",
+    "snippets/alpha-notice",
+    "snippets/launch-codes",
+    "snippets/community-links"
   ]
 }
