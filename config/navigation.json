@@ -22,13 +22,15 @@
         "docs/developer/update-log"
       ]
     },
-    "snippets/corporation-offline",
-    "snippets/alpha-notice",
     "snippets/launch-codes",
     "snippets/community-links",
     {
       "group": "Shared content",
-      "pages": []
+      "pages": [
+        "snippets/corporation-offline",
+        "snippets/alpha-notice"
+      ],
+      "hidden": true
     }
   ]
 }
