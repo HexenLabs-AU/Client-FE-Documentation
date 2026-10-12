@@ -12,7 +12,7 @@ The recruiting lanes are **Temp Agency**, **Logistics Recruiter**, and **Executi
 
 Read the candidate's hiring cost, monthly salary, dispatch delay, and listed bonuses before hiring. The current dispatcher panel shows the staff member managing your office.
 
-<Frame>
+<Frame caption="Find Driver Meetings and Advanced Controls in Staff.">
   <img
     src="/images/guides/driver-meetings.webp"
     alt="Dispatcher staff screen with driver meeting and advanced control buttons"
@@ -20,6 +20,31 @@ Read the candidate's hiring cost, monthly salary, dispatch delay, and listed bon
 </Frame>
 
 _Example company shown; your balances, prices, and available options may differ._
+
+## Start automatic dispatch
+
+After hiring, open **Dispatch → Auto Dispatch** to enable automatic work and choose a company priority. Individual driver priorities can override that default. See [Auto Dispatch](/docs/gameplay/dispatch#set-automatic-priorities).
+
+## Arrange driver meetings
+
+Open **Staff → Dispatcher → Driver Meetings → Schedule Meeting**, then choose the meeting that suits your fleet. Meetings take effect after current deliveries finish.
+
+| Meeting | Benefit shown | Duration |
+| --- | --- | --- |
+| Safety Meeting | Safety Performance +25%; fewer accidents and traffic stops. | 2 hours. |
+| Maintenance Meeting | Maintenance Performance +25%; fewer breakdowns and less wear. | 2 hours. |
+| Incentive Meeting | Revenue Performance +5%; more money per run. | 2 hours. |
+
+**Meeting effects do not stack.** Review the current cost before scheduling; the screenshot's \$200,000 is an example company price.
+
+<Frame caption="Compare meeting benefits, duration, and the live price.">
+  <img
+    src="/images/guides/dispatcher-meeting-options.png"
+    alt="Schedule a Meeting panel showing Safety, Maintenance, and Incentive benefits, each lasting two hours"
+  />
+</Frame>
+
+_Use the current meeting panel for your company's price. The percentages above use the panel's performance labels._
 
 ## Configure Advanced Dispatcher
 
@@ -33,7 +58,7 @@ Open **Staff → Dispatcher → Advanced Controls → Open Rules**. These contro
 
 **Deal Order** sets which agreed business deal they work on first. The list is empty when you have no agreed deals.
 
-<Frame>
+<Frame caption="Order contracts and review dispatch priorities.">
   <img
     src="/images/guides/advanced-dispatcher-priorities.png"
     alt="Advanced Dispatcher priority controls, contract ordering arrows, deal order, and route toggles"
@@ -41,6 +66,14 @@ Open **Staff → Dispatcher → Advanced Controls → Open Rules**. These contro
 </Frame>
 
 _Example settings shown. Choose the rules that suit your company._
+
+### Understand rule exceptions
+
+Rules stack: an ordinary load must pass every enabled rule. **Contract work, Federal Contracts, and agreed business deals are commitments and ignore these filters.**
+
+If nothing matches for **60 minutes**, the dispatcher takes the best available load anyway, then applies the holds again. Keep this fallback in mind when using strict filters.
+
+Use **Done** to finish configuring the panel. **Reset to Defaults** restores the default settings.
 
 ### Filter routes and loads
 
@@ -58,7 +91,7 @@ _Example settings shown. Choose the rules that suit your company._
 | Hold Worn Trucks | Choose Off, 60%, or 75%. Park trucks whose worst part is below the chosen condition until repaired. |
 | Stay in Home Region | Take loads ending in your headquarters' region. |
 
-<Frame>
+<Frame caption="Route and load filters apply to ordinary freight.">
   <img
     src="/images/guides/advanced-dispatcher-rules.png"
     alt="Advanced Dispatcher filters for lane rate, load size, distances, driving style, fuel reserve, truck condition, and home region"
@@ -66,32 +99,3 @@ _Example settings shown. Choose the rules that suit your company._
 </Frame>
 
 _The lower section of Advanced Dispatcher settings._
-
-### Understand rule exceptions
-
-Rules stack: an ordinary load must pass every enabled rule. **Contract work, Federal Contracts, and agreed business deals are commitments and ignore these filters.**
-
-If nothing matches for **60 minutes**, the dispatcher takes the best available load anyway, then applies the holds again. Keep this fallback in mind when using strict filters.
-
-Use **Done** to finish configuring the panel. **Reset to Defaults** restores the default settings.
-
-## Arrange driver meetings
-
-Open **Staff → Dispatcher → Driver Meetings → Schedule Meeting**, then choose the meeting that suits your fleet. Meetings take effect after current deliveries finish.
-
-| Meeting | Benefit shown | Duration |
-| --- | --- | --- |
-| Safety Meeting | Safety Performance +25%; fewer accidents and traffic stops. | 2 hours. |
-| Maintenance Meeting | Maintenance Performance +25%; fewer breakdowns and less wear. | 2 hours. |
-| Incentive Meeting | Revenue Performance +5%; more money per run. | 2 hours. |
-
-**Meeting effects do not stack.** Review the current cost before scheduling; the screenshot's \$200,000 is an example company price.
-
-<Frame>
-  <img
-    src="/images/guides/dispatcher-meeting-options.png"
-    alt="Schedule a Meeting panel showing Safety, Maintenance, and Incentive benefits, each lasting two hours"
-  />
-</Frame>
-
-_Use the current meeting panel for your company's price. The percentages above use the panel's performance labels._

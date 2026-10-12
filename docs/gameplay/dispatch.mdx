@@ -6,14 +6,11 @@ sidebarTitle: "Dispatch"
 
 Dispatch connects your drivers to freight. Open **Dispatch** and choose **Manual Dispatch** or **Auto Dispatch**.
 
-<Frame caption="Select a driver or Your Truck in Manual Dispatch.">
-  <img
-    src="/images/guides/manual-dispatch.webp"
-    alt="Fleet Empire manual dispatch interface"
-  />
-</Frame>
-
-_Example company shown; your balances, prices, and available options may differ._
+| Your goal | Dispatch mode |
+| --- | --- |
+| Choose a driver and load yourself | [Manual Dispatch](#review-a-manual-load) |
+| Let a dispatcher find ordinary freight | [Auto Dispatch](#set-automatic-priorities) |
+| Complete contract commitments automatically | Auto Dispatch with **Contracts** priority; stay online. |
 
 ## Review a manual load
 
@@ -30,23 +27,23 @@ _Example company shown; your balances, prices, and available options may differ.
     Select a load to open **Review**. Check the driver, assigned truck, freight, distance, payout, estimated time, tolls, and pickup location. **You Keep** shows the amount after the driver's cut; fuel and other running costs still matter when planning your company budget.
 
     Resolve any availability or broken-truck message before proceeding. Then select **Dispatch Load** at the bottom of the review screen. Wait for the vehicle to deliver the load; delivery rewards are credited when it arrives.
+
+    <Frame caption="Review the assigned truck and load before selecting Dispatch Load.">
+      <img
+        src="/images/guides/dispatch-load.png"
+        alt="Ready dispatch review showing the assigned vehicle, freight, estimated time, tolls, and Dispatch Load button"
+      />
+    </Frame>
+
+    _Example load shown; your truck, route, payout, and delivery time may differ._
   </Step>
 </Steps>
-
-<Frame>
-  <img
-    src="/images/guides/dispatch-load.png"
-    alt="Ready dispatch review showing the assigned vehicle, freight, estimated time, tolls, and Dispatch Load button"
-  />
-</Frame>
-
-_Example load shown; your truck, route, payout, and delivery time may differ._
 
 ## Set automatic priorities
 
 **Auto Dispatch** allows a dispatcher to find loads for idle drivers. Use the on/off control to enable or stop it. **Manage Dispatcher & Rules (Staff)** opens the staff controls.
 
-Available priorities shown in the recording include:
+Choose a priority:
 
 | Priority | What it asks the dispatcher to favor |
 | --- | --- |
@@ -61,14 +58,12 @@ You can set a company default and use individual driver priorities. **Follow Com
 
 The optional **Advanced Dispatcher** pass exposes more dispatch rules through the staff menu.
 
-<Frame>
+<Frame caption="Choose a company dispatch priority and review toll preferences.">
   <img
     src="/images/guides/auto-dispatch.webp"
     alt="Auto Dispatch screen showing priorities and the toll avoidance control"
   />
 </Frame>
-
-_Example company shown; your balances, prices, and available options may differ._
 
 ## Check toll preferences
 
@@ -77,3 +72,17 @@ _Example company shown; your balances, prices, and available options may differ.
 ## Understand offline work
 
 Automatic dispatch supports ordinary freight while you are offline. **No contract work progresses offline**, including business deals, Federal Contracts, and corporation contracts. See [Contracts](/docs/gameplay/contracts#offline-contract-progress).
+
+<Frame caption="Manual Dispatch lets you choose the driver and freight.">
+  <img
+    src="/images/guides/manual-dispatch.webp"
+    alt="Fleet Empire manual dispatch interface"
+  />
+</Frame>
+
+## If dispatch cannot start
+
+- **Busy truck:** wait for its current delivery to finish.
+- **Broken truck:** inspect the assigned vehicle and its condition.
+- **Unsuitable equipment:** choose freight that matches the truck.
+- **Contracts not progressing offline:** return online; ordinary freight and contract work follow different offline rules.
