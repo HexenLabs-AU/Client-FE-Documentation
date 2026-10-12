@@ -47,7 +47,8 @@
     {
       "group": "Corporations",
       "pages": [
-        "docs/gameplay/corporations"
+        "docs/gameplay/corporations",
+        "docs/gameplay/corporation-businesses"
       ]
     },
     {
