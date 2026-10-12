@@ -83,5 +83,48 @@
       "destination": "/docs",
       "permanent": false
     }
-  ]
+  ],
+  "footer": {
+    "links": [
+      {
+        "header": "Fleet Empire",
+        "items": [
+          {
+            "label": "Roblox",
+            "href": "https://www.roblox.com/games/128776499486135/Fleet-Empire"
+          },
+          {
+            "label": "Discord",
+            "href": "https://discord.gg/xtvqCYBDYp"
+          }
+        ]
+      },
+      {
+        "header": "Reward codes",
+        "items": [
+          {
+            "label": "RELEASE",
+            "href": "/docs/gettingstarted/codes"
+          },
+          {
+            "label": "ALPHA",
+            "href": "/docs/gettingstarted/codes"
+          },
+          {
+            "label": "ROADTRIP",
+            "href": "/docs/gettingstarted/codes"
+          }
+        ]
+      },
+      {
+        "header": "Latest update",
+        "items": [
+          {
+            "label": "October 11, 2026",
+            "href": "/docs/developer/update-log"
+          }
+        ]
+      }
+    ]
+  }
 }

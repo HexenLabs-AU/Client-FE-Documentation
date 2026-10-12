@@ -4,3 +4,110 @@
     width: auto !important;
     max-height: none !important;
   }
+
+/* Fleet Empire component styling — original contributions by HexenLabs.
+   Copyright (c) 2026 HexenLabs — https://hexenlabs.com.au. See LICENSE. */
+:root {
+  --fe-border: rgba(31, 41, 55, 0.13);
+  --fe-surface: #f1f3f6;
+  --fe-hover: rgba(37, 99, 235, 0.035);
+  --fe-muted: #596374;
+}
+.dark {
+  --fe-border: rgba(255, 255, 255, 0.12);
+  --fe-surface: #191b20;
+  --fe-hover: rgba(147, 197, 253, 0.045);
+  --fe-muted: #adb5c2;
+}
+
+/* Screenshot frames keep the entire image and the native zoom control. */
+#content .frame {
+  margin-block: 1.5rem;
+  padding: 0.625rem;
+  border: 1px solid var(--fe-border);
+  border-radius: 12px;
+  background: var(--fe-surface);
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.035);
+}
+#content .frame > div:first-child,
+#content .frame img {
+  border-radius: 7px;
+}
+#content .frame img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+#content .frame [data-component-part="frame-caption"] {
+  margin-top: 0.75rem;
+  padding: 0 0.625rem 0.25rem;
+  color: var(--fe-muted);
+  font-size: 0.8125rem;
+  line-height: 1.6;
+  text-align: left;
+  border-radius: 0;
+}
+#content .frame + p:has(> em:only-child),
+#content div:has(> .frame) + p:has(> em:only-child) {
+  margin: -0.75rem 0 1.5rem;
+  padding-inline: 0.625rem;
+  color: var(--fe-muted);
+  font-size: 0.8125rem;
+  line-height: 1.6;
+}
+#content .frame + p > em,
+#content div:has(> .frame) + p > em {
+  font-style: normal;
+}
+
+/* Restrained tables preserve numeric alignment and native horizontal scrolling. */
+#content table {
+  border-collapse: collapse;
+  background: transparent;
+}
+#content table th {
+  padding: 0.75rem 0.875rem;
+  background: var(--fe-surface);
+  border-bottom: 1px solid var(--fe-border);
+  font-weight: 600;
+}
+#content table td {
+  padding: 0.75rem 0.875rem;
+  background: transparent;
+  border-bottom: 1px solid var(--fe-border);
+}
+#content table tbody tr:last-child td {
+  border-bottom: 0;
+}
+#content table tbody tr:hover td {
+  background: var(--fe-hover);
+}
+
+#content .accordion {
+  border: 1px solid var(--fe-border);
+  border-radius: 10px;
+  background: transparent;
+  box-shadow: none;
+}
+#content .accordion [data-component-part="accordion-button"] {
+  background: transparent;
+  transition: background-color 120ms ease;
+}
+#content .accordion [data-component-part="accordion-button"]:hover,
+#content .accordion[open] > summary {
+  background: var(--fe-hover);
+}
+#content .accordion [data-component-part="accordion-button"]:focus-visible {
+  outline: 2px solid #2563eb;
+  outline-offset: -3px;
+}
+#footer a[data-fe-reward-code] {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-weight: 600;
+  letter-spacing: 0.035em;
+}
+@media (prefers-reduced-motion: reduce) {
+  #content .accordion [data-component-part="accordion-button"] {
+    transition: none;
+  }
+}
