@@ -25,6 +25,10 @@
     "snippets/corporation-offline",
     "snippets/alpha-notice",
     "snippets/launch-codes",
-    "snippets/community-links"
+    "snippets/community-links",
+    {
+      "group": "Shared content",
+      "pages": []
+    }
   ]
 }
