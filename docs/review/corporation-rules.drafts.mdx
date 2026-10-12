@@ -45,12 +45,12 @@ Source: the supplied UI recording, **Corporation at 00:12–00:47**.
 ## New developer confirmations
 
 - Enabled fuel and toll cards cover all member fuel and toll costs.
-- Members request corporation loans; the CEO or a permitted manager accepts or denies the request. Loans include interest and repayment terms. Inability to pay leads to repossession. The term-setting party, missed-payment threshold, and exact asset rules remain unspecified; do not import bank-loan default rules.
+- Members request corporation loans; the CEO or a permitted manager accepts or denies the request. Loans include interest and repayment terms. Inability to pay leads to repossession. The requester proposes interest and repayment terms; the corporation accepts or denies the request. Repossession follows two failed payments. The exact assets seized and payment sources remain unspecified; do not assume the two failures must be consecutive.
 
 ## Questions for the developer
 
 1. Does production enter storage in one hourly batch or continuously throughout the hour?
-2. Confirm how loan interest and repayment terms are set, the vault-share formula, payment sources, and the specific repossession trigger. CEO or permitted-manager approval is already confirmed.
+2. Confirm the vault-share formula, repayment sources, and exact assets seized. Requested terms, approval roles, and the two-failed-payment repossession trigger are resolved.
 3. **Resolved:** enabled corporation fuel and toll cards cover all member fuel and toll costs, rather than only corporation-contract work.
 4. Creation cost and minimum company level are confirmed in the original developer notes; corporations set their own entry requirements. Any numeric reputation scoring or cross-branch corporation membership rules remain unspecified.
 
