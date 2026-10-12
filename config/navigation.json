@@ -79,25 +79,6 @@
         "snippets/launch-codes",
         "snippets/community-links"
       ]
-    },
-    {
-      "group": "Drafts for review",
-      "hidden": false,
-      "expanded": false,
-      "pages": [
-        "docs/review/first-delivery.drafts",
-        "docs/review/licenses.drafts",
-        "docs/review/bank-loans.drafts",
-        "docs/review/truck-financing.drafts",
-        "docs/review/marketplace.drafts",
-        "docs/review/insurance.drafts",
-        "docs/review/contracts.drafts",
-        "docs/review/corporation-rules.drafts",
-        "docs/review/branches-and-storage.drafts",
-        "docs/review/staff-and-upgrades.drafts",
-        "docs/review/shop-prices-and-rewards.drafts",
-        "docs/review/halloween.drafts"
-      ]
     }
   ]
 }
