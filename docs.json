@@ -38,9 +38,9 @@
         "description": "Get help from our community & staff",
         "icon": "discord",
         "href": "https://discord.gg/xtvqCYBDYp"
-      },
-    ]
-    "display": "header"
+      }
+    ],
+    "display": "toc"
   },
   "icons": {
     "library": "fontawesome"
