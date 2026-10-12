@@ -1,14 +1,6 @@
 {
   "groups": [
     {
-      "group": "Limited-time events",
-      "icon": "ghost",
-      "expanded": true,
-      "pages": [
-        "docs/events/halloween"
-      ]
-    },
-    {
       "group": "Getting Started",
       "pages": [
         "docs/index",
@@ -16,6 +8,14 @@
         "docs/gettingstarted/interface-tour",
         "docs/gettingstarted/codes",
         "docs/gettingstarted/faq"
+      ]
+    },
+    {
+      "group": "Limited-time events",
+      "icon": "ghost",
+      "expanded": true,
+      "pages": [
+        "docs/events/halloween"
       ]
     },
     {
