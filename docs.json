@@ -38,11 +38,9 @@
         "description": "Get help from our community and staff",
         "icon": "comments",
         "href": "https://discord.gg/xtvqCYBDYp"
-      },
-      "claude",
-      "copy"
+      }
     ],
-    "display": "header"
+    "display": "toc"
   },
   "icons": {
     "library": "fontawesome"

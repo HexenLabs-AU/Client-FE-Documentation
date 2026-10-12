@@ -12,7 +12,6 @@
     },
     {
       "group": "Limited-time events",
-      "icon": "ghost",
       "expanded": true,
       "pages": [
         "docs/events/halloween"
