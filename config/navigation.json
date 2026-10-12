@@ -7,29 +7,48 @@
         "docs/gettingstarted/how-to-play",
         "docs/gettingstarted/interface-tour",
         "docs/gettingstarted/codes",
-        "docs/gettingstarted/game-passes",
         "docs/gettingstarted/faq"
       ]
     },
     {
       "group": "Your company",
       "pages": [
-        "docs/gameplay/corporations",
-        "docs/gameplay/tolls"
+        "docs/gameplay/headquarters",
+        "docs/gameplay/contracts",
+        "docs/gameplay/bank",
+        "docs/gameplay/insurance",
+        "docs/gettingstarted/game-passes",
+        "docs/gameplay/upgrades-and-licenses",
+        "docs/gameplay/settings",
+        "docs/gameplay/leaderboards-and-logs",
+        "docs/gameplay/shop-and-boosts"
       ],
       "expanded": false
     },
     {
       "group": "Fleet and deliveries",
-      "pages": []
+      "pages": [
+        "docs/gameplay/fleet-and-dealership",
+        "docs/gameplay/vehicle-upgrades",
+        "docs/gameplay/dispatch",
+        "docs/gameplay/marketplace",
+        "docs/gameplay/tolls"
+      ]
     },
     {
       "group": "Staff",
-      "pages": []
+      "pages": [
+        "docs/gameplay/drivers",
+        "docs/gameplay/dispatchers",
+        "docs/gameplay/fleet-manager",
+        "docs/gameplay/escort-crew"
+      ]
     },
     {
       "group": "Corporations",
-      "pages": []
+      "pages": [
+        "docs/gameplay/corporations"
+      ]
     },
     {
       "group": "Development",

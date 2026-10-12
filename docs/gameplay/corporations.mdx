@@ -1,81 +1,58 @@
 ---
 title: "Corporations"
-description: "Create a corporation, manage members and finances, purchase businesses, and run contracts."
+description: "Understand shared businesses, contracts, laws, upgrades, and member loans."
 ---
 
-import CorporationOffline from "/snippets/corporation-offline.mdx";
+A corporation brings player companies together. Members can move shared freight, contribute to a corporate vault, and benefit from corporation upgrades while retaining their own companies.
 
-A corporation brings companies together to manage businesses, share benefits, and complete contracts.
+## Start with the main page
 
-## Start a corporation
+Open **Corporation** to find the corporation interface. The **Main Page** shows corporation level, EXP, reputation, specialty, vault funds, and the member list.
 
-| Requirement | Amount |
+Check the current creation or joining requirements in game. After joining, review the corporation's tax, fuel and toll coverage, and your role before contributing money or accepting work.
+
+## Understand what is shared
+
+| System | How it works |
 | --- | --- |
-| Creation cost | $6,000,000 |
-| Minimum company level | 10 |
-| Corporation level needed to buy a business | 3 |
+| Corporate vault | Holds donations, tax, and the corporation's share of contract income. |
+| Businesses | Produce commodities stored in the warehouse. |
+| Contracts | Move warehouse freight with your own members or other corporations. |
+| Upgrades | Use corporate funds for shared capacity and member benefits. |
+| Roles | Control who can manage money, members, businesses, and work. |
 
-After creating your corporation, you can set entry requirements, corporate laws, and permissions for each role.
-
-## Set rules and permissions
-
-The CEO decides which roles can manage the corporation, including who can purchase and upgrade businesses or approve member loans.
-
-### Company tax
-
-Company tax takes your chosen percentage from each member's daily earnings.
-
-**Federal Contract earnings are excluded from company tax.**
-
-### Fuel coverage
-
-When fuel coverage is enabled, members are reimbursed whenever they purchase fuel. Reimbursements come from the corporation's bank account.
-
-Corporations can also pay for tolls. See [Tolls](/docs/gameplay/tolls) for rates and axle calculations.
+Your personal company cash and trucks remain your own.
 
 ## Reputation and loyalty
 
-| Measure | How it works |
-| --- | --- |
-| Reputation | Increases when a contract is completed successfully and decreases when a contract misses its deadline. |
-| Loyalty | Members earn 1 loyalty point for every hour they have been in the corporation. Loyalty appears in the member list. |
+Completing contracts successfully increases corporation reputation. Missing deadlines reduces it.
 
-## Businesses and production
+Loyalty appears in the member list. Under the developer's supplied rules, members gain one loyalty point for each hour spent in the corporation.
 
-Your corporation must reach **level 3** before purchasing a business.
+## Choose your next task
 
-Businesses can be purchased by the CEO or by someone the CEO has given permission to buy them. You can also purchase businesses from other corporations when they choose to sell.
+<Columns cols={2}>
+  <Card title="Businesses and production" href="/docs/gameplay/corporation-businesses">
+    Review commodities, warehouse space, listings, and upgrades.
+  </Card>
 
-Businesses produce commodities on a recurring production cycle. Produced commodities go into your warehouse, where you can create contracts to move them.
+  <Card title="Corporation contracts" href="/docs/gameplay/corporation-contracts">
+    Compare work, apply for contracts, and track deadlines.
+  </Card>
 
-## Create and accept contracts
+  <Card title="Management and members" href="/docs/gameplay/corporation-management">
+    Set laws and permissions, donate, and review loans or logs.
+  </Card>
 
-From the warehouse, you can make a contract available to your own members or offer it to other corporations.
+  <Card title="Toll costs" href="/docs/gameplay/tolls">
+    Understand axle charges and the choice to avoid toll roads.
+  </Card>
+</Columns>
 
-### In-house contracts
+## Borrow carefully
 
-Corporations can post **two in-house contracts per day**. Other contracts must be outsourced.
-
-### Outsourced contracts
-
-When outsourcing a contract, you choose the percentage your corporation keeps for each pallet or gallon delivered. That share goes directly into the corporation's bank account.
-
-If your corporation does not own a business yet, you can still look for work on the corporation contract board and arrange a contract with another corporation.
-
-<Warning>
-<CorporationOffline />
-</Warning>
-
-## Corporation upgrades
-
-Use money earned by your corporation to purchase upgrades that benefit all members.
-
-## Member loans
-
-Corporations can lend members up to the amount they have contributed through **company tax and donations**.
-
-Loans must be approved by the CEO or someone with permission to approve them through management.
+The corporation's Loans screen shows your eligible vault share and repayment terms. Contributions and your share of corporate spending affect the available balance. Approval requires the CEO or another permitted role.
 
 <Warning>
-A member cannot leave the corporation while they have an active corporation loan. The CEO cannot disband the corporation while a member loan remains outstanding.
+A member cannot leave while they have an active corporation loan. The CEO cannot disband while a member loan remains outstanding.
 </Warning>
