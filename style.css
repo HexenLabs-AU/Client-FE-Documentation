@@ -132,3 +132,17 @@
   outline: 2px solid #2563eb;
   outline-offset: 3px;
 }
+
+/* Hide the Mintlify attribution link while retaining footer theme controls. */
+#footer a[href^="https://www.mintlify.com"][href*="utm_campaign=poweredBy"] {
+  display: none !important;
+}
+
+/* Match both footer logo variants to the 48px navbar logo. */
+#footer img.nav-logo[src*="robloxLogoWith"] {
+  height: 48px !important;
+  width: auto !important;
+  max-height: none !important;
+  max-width: none !important;
+  object-fit: contain;
+}
