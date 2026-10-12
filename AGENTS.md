@@ -16,7 +16,8 @@ Fleet Empire is a Roblox trucking management game. This site uses Mintlify, MDX 
 ## Page design
 
 - Use short introductions and sentence case headings.
-- Keep the homepage wide and short: one Play card, four guide cards, and useful links.
+- Keep the homepage wide and short: one Play card, four guide cards, and useful links. Current limited-time events may have a featured seasonal panel above the starter guides and an expanded navigation group near the top.
+- Event pages may use a localized seasonal accent panel, supported by real UI screenshots. Keep the site-wide palette unchanged. Confirm event dates, earning rules, and item persistence before documenting them.
 - Keep game passes and code rewards on their dedicated pages.
 - Use tables for prices, rewards, and requirements.
 - Reserve warnings for missed rewards, financial loss, loans, and contract deadlines.
