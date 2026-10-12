@@ -4,6 +4,7 @@
       "group": "Getting Started",
       "pages": [
         "docs/index",
+        "docs/gettingstarted/how-to-play",
         "docs/gettingstarted/codes",
         "docs/gettingstarted/game-passes",
         "docs/gettingstarted/faq"
