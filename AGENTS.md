@@ -60,6 +60,7 @@ Use routes from the current navigation tree. Existing guide paths are nested und
 - Use a soft blue-gray light background (#EEF3F9), blue accents, and the native grid decoration. Preserve readable contrast.
 - Driver hiring previews with odds and the next five purchases are specific to Australia/UK; describe other regions as random rolls.
 - Start beginner guides with the Cargo Van assigned to the player. Dispatch Load starts a delivery; rewards arrive when it is delivered. Do not require a fixed RNG load as a tutorial example.
-- Truck financing requires at least 500 credit score; additional availability depends on company level and upgrades.
+- Publish only the minimum credit score of 500 required for financing. Do not list score bands, score-based terms, or rating-change rules. Direct players to the current in-game offer.
+- Financing starts with three slots and caps at eight. Both company levels and Expanded Credit upgrades add slots.
 - Use a subtle native grid background. Preserve readable space, blue accents, Inter, and the current logo sizing.
 - Keep public navigation grouped by player task: Getting Started, Your company, Fleet and deliveries, Staff, Corporations, Development.
