@@ -48,3 +48,14 @@ Shared content is hidden from public navigation. Do not import changing rules in
 ## Links and verification
 
 Use routes from the current navigation tree. Existing guide paths are nested under docs/. Check every internal link and snippet import before saving. Check frontmatter through node metadata tools and inspect the final diff.
+
+## Evidence and review drafts
+
+- Target new players: explain the purpose, then use exact observed menu labels and steps.
+- Use the supplied UI recording and explicit developer confirmations as sources. A screen from an established company is not a universal starter requirement or price.
+- License and bank-loan levels, costs, and terms require developer confirmation. Financing varies with company level and upgrades; explain the dependency without inventing fixed thresholds.
+- Put uncertain procedures or rules in a suggested-name.drafts.mdx file under docs/review. Mark these pages hidden and noindex, and keep their group hidden. Hidden pages are not access-controlled; do not place private information in them.
+- Each draft must include its recording timestamps, observations, and specific questions. Never present an uncompleted action as a tested walkthrough.
+- Use screenshots from the recording as examples. Keep text descriptions complete, include meaningful alt text, and provide MDX comments where replacement images can be added.
+- Use a subtle native grid background. Preserve readable space, blue accents, Inter, and the current logo sizing.
+- Keep public navigation grouped by player task: Getting Started, Your company, Fleet and deliveries, Staff, Corporations, Development.
