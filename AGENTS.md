@@ -17,14 +17,14 @@ Fleet Empire is a Roblox trucking management game. This site uses Mintlify, MDX 
 ## Page design
 
 - Use short introductions and sentence case headings.
-- Keep the homepage short: a brief introduction, plain Play and reward links, four starter guide cards, and a compact current-event section. Keep current events near the top of navigation.
-- Event pages use the same article layout as other guides, with a seasonal sidebar icon and real UI screenshots. Do not add large decorative panels. Publish only confirmed event details; omit unconfirmed post-event behavior.
+- Keep the homepage wide and short: one Play card, four guide cards, and useful links. Current limited-time events may have a featured seasonal panel above the starter guides and an expanded navigation group near the top.
+- Event pages may use a localized seasonal accent panel, supported by real UI screenshots. Keep the site-wide palette unchanged. Confirm event dates, earning rules, and item persistence before documenting them.
 - Keep game passes and code rewards on their dedicated pages.
 - Use tables for prices, rewards, and requirements.
 - Reserve warnings for missed rewards, financial loss, loans, and contract deadlines.
-- Show the shared alpha notice on Overview. Do not use a persistent alpha banner or repeat alpha boxes inside guides.
+- Use the global alpha banner; avoid repeating alpha boxes inside guides.
 - Keep community links where they help, rather than ending every guide with the same section.
-- Use native Mintlify components, blue accents, Inter, and neutral backgrounds: light #F7F8FA and dark #111113. Preserve the user's theme choice.
+- Use native Mintlify components and the existing light theme, blue accents, and Inter font.
 - Preserve the navbar logo sizing unless the user requests another change.
 
 ## Formatting
@@ -43,7 +43,7 @@ The snippets folder lives beside docs.json. Import snippets using absolute paths
 - corporation-offline.mdx: current corporation contract offline rule.
 - launch-codes.mdx: RELEASE and ALPHA rewards.
 - community-links.mdx: Discord and update-log links.
-- alpha-notice.mdx: alpha wording shown on Overview.
+- alpha-notice.mdx: reusable alpha wording for places that need it; the global banner handles routine disclosure.
 
 Shared content is hidden from public navigation. Do not import changing rules into historical changelog entries.
 
@@ -59,10 +59,10 @@ Use routes from the current navigation tree. Existing guide paths are nested und
 - Put uncertain procedures or rules in a suggested-name.drafts.mdx file under docs/review. The developer has requested all review drafts in sidebar rotation: keep the Drafts for review group visible and collapsed, label pages Review (or Deferred), and retain noindex. Clearly separate confirmed facts from open questions; visible drafts do not make uncertain rules confirmed. Do not place private information in review pages.
 - Each draft must include its recording timestamps, observations, and specific questions. Never present an uncompleted action as a tested walkthrough.
 - Place useful screenshots visibly beside related instructions. Reserve expandable blocks for secondary images. Keep text descriptions complete, include meaningful alt text and captions for example values, and provide MDX comments where replacement images can be added.
-- Use calm, plain backgrounds without grid decoration. Keep the header compact and support in the navbar.
+- Use a soft blue-gray light background (#EEF3F9), blue accents, and the native grid decoration. Preserve readable contrast.
 - Driver hiring previews with odds and the next five purchases are specific to Australia/UK; describe other regions as random rolls.
 - Start beginner guides with the Cargo Van assigned to the player. Dispatch Load starts a delivery; rewards arrive when it is delivered. Do not require a fixed RNG load as a tutorial example.
 - Publish only the minimum credit score of 500 required for financing. Do not list score bands, score-based terms, or rating-change rules. Direct players to the current in-game offer.
 - Financing starts with three slots and caps at eight. Both company levels and Expanded Credit upgrades add slots.
-- Use short introductions, clear actions, nearby screenshots, and important rules. Put optional reference material and secondary images in accordions. Keep requirements, financial risks, and deadlines visible. Avoid repeated screenshot disclaimers or references to the recording/developer in player-facing prose.
-- Keep Getting Started first, then current events. Nest Your company, Fleet and deliveries, Staff, and Corporations as collapsed groups under Guides. Use short sidebar labels and preserve existing URLs. Development stays separate.
+- Use a subtle native grid background. Preserve readable space, blue accents, Inter, and the current logo sizing.
+- Keep public navigation grouped by player task: Getting Started, Your company, Fleet and deliveries, Staff, Corporations, Development.

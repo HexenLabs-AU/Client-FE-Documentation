@@ -38,9 +38,11 @@
         "description": "Get help from our community and staff",
         "icon": "comments",
         "href": "https://discord.gg/xtvqCYBDYp"
-      }
+      },
+      "claude",
+      "copy"
     ],
-    "display": "toc"
+    "display": "header"
   },
   "icons": {
     "library": "fontawesome"
@@ -54,6 +56,11 @@
   },
   "appearance": {
     "default": "dark"
+  },
+  "banner": {
+    "content": "**Fleet Empire is in alpha.** Expect minor bugs and ongoing updates. [Share feedback on Discord](https://discord.gg/xtvqCYBDYp).",
+    "dismissible": true,
+    "type": "info"
   },
   "styling": {
     "eyebrows": "section",
@@ -81,7 +88,7 @@
   },
   "description": "Beginner-friendly Fleet Empire guides for building your fleet, hiring staff, finding freight, and managing your trucking company.",
   "search": {
-    "prompt": "Search guides..."
+    "prompt": "What would you like to do?"
   },
   "redirects": [
     {
@@ -89,10 +96,5 @@
       "destination": "/docs",
       "permanent": false
     }
-  ],
-  "banner": {
-    "content": "**Fleet Empire is in alpha.** Expect minor bugs and ongoing updates. [Share feedback on Discord](https://discord.gg/xtvqCYBDYp).",
-    "dismissible": true,
-    "type": "info"
-  }
+  ]
 }

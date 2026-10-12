@@ -12,6 +12,7 @@
     },
     {
       "group": "Limited-time events",
+      "icon": "ghost",
       "expanded": true,
       "pages": [
         "docs/events/halloween"
@@ -19,7 +20,6 @@
     },
     {
       "group": "Your company",
-      "expanded": false,
       "pages": [
         "docs/gameplay/headquarters",
         "docs/gameplay/contracts",
@@ -30,38 +30,39 @@
         "docs/gameplay/settings",
         "docs/gameplay/leaderboards-and-logs",
         "docs/gameplay/shop-and-boosts"
-      ]
+      ],
+      "expanded": false
     },
     {
       "group": "Fleet and deliveries",
-      "expanded": false,
       "pages": [
         "docs/gameplay/fleet-and-dealership",
         "docs/gameplay/vehicle-upgrades",
         "docs/gameplay/dispatch",
         "docs/gameplay/marketplace",
         "docs/gameplay/tolls"
-      ]
+      ],
+      "expanded": false
     },
     {
       "group": "Staff",
-      "expanded": false,
       "pages": [
         "docs/gameplay/drivers",
         "docs/gameplay/dispatchers",
         "docs/gameplay/fleet-manager",
         "docs/gameplay/escort-crew"
-      ]
+      ],
+      "expanded": false
     },
     {
       "group": "Corporations",
-      "expanded": false,
       "pages": [
         "docs/gameplay/corporations",
         "docs/gameplay/corporation-businesses",
         "docs/gameplay/corporation-contracts",
         "docs/gameplay/corporation-management"
-      ]
+      ],
+      "expanded": false
     },
     {
       "group": "Development",

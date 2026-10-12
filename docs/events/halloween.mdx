@@ -6,7 +6,11 @@ icon: "ghost"
 tag: "Limited time"
 ---
 
-Spend Candy on Halloween truck skins, a seasonal Legendary driver, and delivery boosts.
+<div style={{ background: "radial-gradient(circle at top right, rgba(249,115,22,0.18), transparent 55%), linear-gradient(135deg, #2D103C, #141827)", border: "1px solid #C26A12", borderRadius: "18px", padding: "1.5rem", margin: "1.5rem 0" }}>
+  <p style={{ color: "#FDBA74", fontWeight: 700, fontSize: "0.75rem", letterSpacing: "0.08em", margin: "0 0 0.5rem" }}>LIMITED-TIME EVENT</p>
+  <p style={{ color: "#FFF7ED", fontSize: "1.6rem", fontWeight: 700, lineHeight: 1.25, margin: "0 0 0.75rem" }}>🎃 Haul a little Halloween into your fleet.</p>
+  <p style={{ color: "#E9D5FF", lineHeight: 1.6, margin: 0 }}>Spend Candy on seasonal truck skins, a Halloween driver, and delivery boosts.</p>
+</div>
 
 ## Join the event
 
@@ -16,21 +20,29 @@ Open the **Map** page to access the **Halloween Event** and its shop.
 
 ## Pick your Halloween reward
 
-| Reward | Cost | What you get |
-| --- | --: | --- |
-| Pumpkin skin | 400 Candy | Orange-and-black pumpkin design for one truck. |
-| Ghost skin | 400 Candy | Purple ghost design for one truck. |
-| Halloween driver | 1,500 Candy | A seasonal Legendary driver. |
+<Columns cols={3}>
+  <Card title="Pumpkin skin" icon="truck">
+    Orange and black, with a pumpkin design. **400 Candy** for one truck skin.
+  </Card>
+  <Card title="Ghost skin" icon="ghost">
+    Purple with a ghost design. **400 Candy** for one truck skin.
+  </Card>
+  <Card title="Halloween driver" icon="user">
+    A seasonal **Legendary driver**, listed for **1,500 Candy**.
+  </Card>
+</Columns>
 
 Candy is the event currency. The Halloween Shop shows each reward's cost, your owned quantity, and whether you have enough Candy to purchase it. Quantity controls let you select how many skins or drivers to buy.
 
 The shop also notes that company drivers earn Candy while you are away.
 
-Driver previews vary. See [Drivers](/docs/gameplay/drivers) for regional hiring differences.
+The screenshot shows a specific driver preview; check your own shop offer rather than assuming the shown name is the driver every player receives. See [Driver hiring](/docs/gameplay/drivers) for the regional hiring differences.
 
 <Frame>
   <img src="/images/guides/halloween-shop.png" alt="Halloween Shop with Pumpkin and Ghost truck skins, a Legendary Halloween driver, Candy-priced boosts, and optional Candy bundles" />
 </Frame>
+
+*The screenshot shows an example company's inventory and driver preview. Check the current offer and Roblox purchase prompt for your own prices and available rewards.*
 
 ## Halloween driver specialties
 
@@ -89,16 +101,14 @@ Each vehicle has **one skin**. A skin is **consumed when applied** and **cannot 
 
 ## Optional Candy bundles
 
-<Accordion title="Candy bundles available for Robux">
-  The **Get Candy** panel offers Candy purchases with Robux:
+The **Get Candy** panel offers Candy purchases with Robux:
 
-  | Bundle | Candy |
-  | --- | --: |
-  | Candy Bag | 500 |
-  | Candy Bucket | 1,200 |
-  | Candy Cauldron | 3,000 |
+| Bundle | Candy |
+| --- | ---: |
+| Candy Bag | 500 |
+| Candy Bucket | 1,200 |
+| Candy Cauldron | 3,000 |
 
-  The panel states that purchased Candy is added immediately. Check the current Roblox purchase prompt for the price.
-</Accordion>
+The panel states that purchased Candy is added immediately. Check the current Roblox purchase prompt for the price.
 
 {/* Add an event entrance screenshot from the Map page when available. Do not publish Candy earning amounts or rates. */}
