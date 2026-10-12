@@ -55,7 +55,7 @@
     "decoration": "grid"
   },
   "appearance": {
-    "default": "light"
+    "default": "dark"
   },
   "banner": {
     "content": "**Fleet Empire is in alpha.** Expect minor bugs and ongoing updates. [Share feedback on Discord](https://discord.gg/xtvqCYBDYp).",
