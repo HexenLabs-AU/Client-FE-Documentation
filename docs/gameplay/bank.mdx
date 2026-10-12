@@ -1,170 +1,139 @@
 ---
-title: "Cash, bank, and payments"
-description: "Move money, choose payment sources, and understand your financial overview."
+title: "Banking"
+sidebarTitle: "Banking"
+description: "Move money, choose payment sources, and understand loans and financing."
 ---
 
-Cash and Bank are separate balances. Open **Bank** to move money, review borrowing and truck financing, or check company performance.
+Cash and Bank are separate balances. Open **Bank** to move money, choose payment sources, or borrow for your company.
 
 ## Deposit or withdraw funds
 
-The main Bank screen shows **Available Cash** and **Banked**.
-
 1. Choose **Deposit Cash into Bank** or **Withdraw to Cash**.
 2. Enter an amount, or use **MAX**.
-3. Review the displayed fee and resulting balance before confirming.
+3. Check the fee and resulting balance, then confirm.
 
-**Deposits have a 3% fee. Withdrawals are free.** Review the amount credited after the deposit fee before confirming.
+Deposits have a **3% fee**. Withdrawals are free.
+
+<Frame caption="Use the Bank panel to deposit or withdraw funds.">
+  <img
+    src="/images/guides/bank.webp"
+    alt="Bank overview with cash, bank funds, deposit and withdrawal controls"
+  />
+</Frame>
 
 ### Earn savings interest
 
-Bank funds earn **1% every three real hours**, on the **first \$50,000,000** of your bank balance. Money above that cap does not earn additional interest.
+Bank funds earn **1% every three real hours** on the first **\$50,000,000**, including while you are offline. Money above that cap earns no additional interest. The panel shows the countdown to the next payment.
 
-**Savings interest continues while you are offline.** The Bank panel shows a countdown to the next interest payment.
-
-<Frame>
-  <img
-    src="/images/guides/bank-interest.png"
-    alt="Bank balance panel stating 1% interest every three hours on the first $50 million and a 3% deposit fee"
-  />
-</Frame>
-
-_The balance shown is an example; the panel identifies the interest rate, interval, and eligible-balance cap._
-
-<Frame>
-  <img
-    src="/images/guides/bank.webp"
-    alt="Bank overview showing available cash, bank funds, deposit and withdrawal controls"
-  />
-</Frame>
-
-_Example company shown; your balances, prices, and available options may differ._
+<Accordion title="See the savings interest panel">
+  <Frame>
+    <img
+      src="/images/guides/bank-interest.png"
+      alt="Bank panel showing the interest rate, three-hour interval, eligible balance cap and deposit fee"
+    />
+  </Frame>
+</Accordion>
 
 ## Choose payment sources
 
-Open **Bank → Financial Management**. Each expense category has **Cash** and **Bank** controls.
+Open **Bank → Financial Management** and choose **Cash** or **Bank** for each expense.
 
-The screen distinguishes:
+| Payment type | How funds are taken |
+| --- | --- |
+| BUY | Uses only the selected source. |
+| AUTO | Uses the selected source first, then the other source. |
 
-- **BUY**: uses only the selected source.
-- **AUTO**: uses the selected source first, then the other source.
+The rows cover purchases, upgrades, headquarters, repairs, rebuilds, fuel, tolls, staff costs, and debt payments. Check **Loan & Financing Payments** before leaving the game.
 
-Available categories include truck purchases, truck upgrades, company upgrades and headquarters, repairs and rebuilds, fuel, tolls, staff salaries, hiring, and loan or finance payments. Review each row so a purchase or recurring bill uses the funds you intend.
-
-<Frame>
+<Frame caption="Choose which balance pays each expense.">
   <img
     src="/images/guides/payment-sources.webp"
     alt="Financial Management controls for Cash and Bank payment sources"
   />
 </Frame>
 
-_Example company shown; your balances, prices, and available options may differ._
-
 <Warning>
-  Offline delivery earnings go into escrow until you return and claim them. Do not rely on unclaimed earnings to pay debt. Keep a reserve for payments while you are away; offline loan and finance charges continue throughout your absence.
+  Loan and financing payments continue for your entire time offline, with no offline time cap. They follow your payment configuration. Offline delivery earnings stay in escrow until you return and claim them, so they cannot cover these payments.
 </Warning>
-
-**Loan and financing payments follow your Financial Management selection while offline**, including automatic fallback for automatic payments. Review the **Loan & Financing Payments** row before logging out.
-
-**These payments do not pause or have an offline time cap.** They continue for the entire time you are away. Keep enough money available through your selected payment sources; unclaimed offline earnings cannot cover them.
-
-## Read financial performance
-
-**Financial Overview** shows cash balance, revenue, expenses, net profit, outstanding debt, and company value. Use **View Breakdown** to inspect a total or **Refresh** to update the view.
-
-Choose **1 Day**, **7 Days**, or **30 Days** to compare performance. Graphs show revenue, expenses, profit, cash, and value over the selected period.
-
-**Recent Transactions** and **View All** help explain changes in your balances.
-
-<Frame>
-  <img
-    src="/images/guides/financial-overview.webp"
-    alt="Financial Overview showing company performance and breakdown controls"
-  />
-</Frame>
-
-_Example company shown; your balances, prices, and available options may differ._
 
 ## Borrowing and truck financing
 
-The Bank screen includes **Business Loans** and **Truck Financing**.
-
 ### Business loan offers
 
-**The three business-loan offers are fixed.** Company upgrades do not change their amounts or rates; each offer still has its company-level requirement.
+These three offers are fixed. Company upgrades do not change their amounts or rates.
 
-The Bank screen offers:
-
-| Loan | Minimum company level | Amount | Interest shown | Term | Monthly payment |
+| Loan | Company level | Amount | Interest | Term | Monthly payment |
 | --- | --: | --: | --: | --- | --: |
 | Small Business Loan | 3 | \$100,000 | 6% | 12 months | \$8,834 |
 | Fleet Expansion Loan | 6 | \$600,000 | 8% | 24 months | \$27,000 |
 | Commercial Loan | 8 | \$2,500,000 | 10% | 36 months | \$76,389 |
 
-**One game month equals one real hour.** The terms above correspond to 12, 24, and 36 real hours. Review the live offer's **Monthly Payment** and **Total Repaid** before selecting **Apply**.
+**One game month equals one real hour.** Review **Monthly Payment** and **Total Repaid** before selecting **Apply**.
 
-**Loan interest is calculated upfront and added to the total repayment amount.** It is not an annual rate that keeps adding interest throughout the term.
+Interest is calculated upfront and added to the total. For example, borrowing \$100,000 at 6% means repaying \$106,000 in total.
 
-For example, a \$100,000 Small Business Loan at 6% has \$6,000 of interest, for **\$106,000 total repayment**. Check the offer's displayed monthly payment for the installment amount.
-
-Loan payments follow your Financial Management selection and continue while you are offline.
-
-<Frame>
-  <img
-    src="/images/guides/business-loans.png"
-    alt="Small Business, Fleet Expansion, and Commercial loan offers showing amounts, level requirements, interest, terms, and monthly payments"
-  />
-</Frame>
-
-_Current offers shown in the supplied screenshot. Check your live offer before borrowing._
+<Accordion title="See the business loan offers">
+  <Frame>
+    <img
+      src="/images/guides/business-loans.png"
+      alt="Business loan offers with level requirements, amounts, interest and repayment terms"
+    />
+  </Frame>
+</Accordion>
 
 ### Truck financing
 
-**Financing is available only for new vehicles purchased from the dealership. Used vehicles and auction purchases cannot be financed.**
+Financing is available for **new dealership vehicles** and requires a **minimum credit score of 500**. Used vehicles and auction purchases cannot be financed.
 
-**Truck financing requires a credit score of at least 500.** Check the current offer for the down payment, interest, and repayment term.
-
-**New companies start with three financing slots. The maximum is eight.** **Both company levels and Expanded Credit upgrades add financing slots.** Check your current slot count in the Bank.
-
-Check your available slots, monthly installments, and the actual vehicle offer before committing.
-
-Do not use the rates, limits, or balances in the recording as a guarantee for your own company.
+New companies start with **three financing slots**, increasing to a maximum of **eight** through company levels and Expanded Credit upgrades. Review the vehicle offer's down payment, installments, interest, term, and total repayment before purchasing.
 
 ### Repay early
 
-**You can repay loans and truck financing early. The full precalculated interest remains payable**, so paying early does not reduce that interest.
+You can repay loans and financing early, but **the full precalculated interest remains payable**.
 
 ### Missed payments and asset seizure
 
 <Warning>
-  **Miss two consecutive loan or financing payments and your trucks are taken to cover the loan. There is no set seizure order.** This can happen while you are offline because scheduled payments keep running.
+  Missing **two consecutive loan or financing payments** causes trucks to be repossessed to cover the loan. There is no set order for which trucks are taken. This can happen offline.
 </Warning>
-
-Review your Financial Management payment sources and keep enough accessible funds available before leaving the game.
 
 ## Branch transfers
 
-USA and Mexico have separate balances. In the USA Bank, use **Send Money to Mexico** to fund the Mexico operation.
+USA and Mexico have separate balances. Open **Send Money to Mexico** in the USA Bank.
 
 | Method | Fee | Arrival |
 | --- | --: | --- |
-| Armored Truck | 15% | Travel time; the supplied screen shows an estimate of about 29 minutes. |
-| Instant | 35% | Instant transfer. |
+| Armored Truck | 15% | After the displayed travel time. |
+| Instant | 35% | Immediately. |
 
-The supplied USA-to-Mexico screen allows **up to US\$100,000,000 per transfer**, with **one transfer every 35 minutes**.
+You can send **up to US\$100,000,000 per transfer**, with **one transfer every 35 minutes**.
 
-1. Select the transfer method.
+1. Select a method.
 2. Enter the amount, or use **MAX**.
 3. Review the fee and currency-conversion preview before sending.
 
-**Transfers are one-way: USA to Mexico. You cannot transfer money from Mexico to USA.**
+**Transfers only go from USA to Mexico. You cannot send money back to USA.**
 
-The armored truck leaves the bank in **New York** and can be followed on the Map. **Recent Transfers** shows the last seven days of transfer history.
+The armored truck leaves **New York** and can be followed on the Map. **Recent Transfers** shows the last seven days.
 
-<Frame>
+<Frame caption="Check the live exchange preview and arrival estimate before sending.">
   <img
     src="/images/guides/mexico-transfers.png"
-    alt="USA Bank transfer panel with armored-truck and instant fees, the transfer limit, cooldown, conversion preview, and recent transfers"
+    alt="USA-to-Mexico transfer panel with methods, fees, limits and conversion preview"
   />
 </Frame>
 
-_The travel estimate and completed transfer shown are examples. Use the live conversion preview rather than assuming a fixed exchange rate._
+## Read financial performance
+
+<Accordion title="Track income, expenses and transactions">
+  **Financial Overview** shows cash, revenue, expenses, net profit, outstanding debt, and company value. Use **View Breakdown** to inspect a total or **Refresh** to update it.
+
+  Choose **1 Day**, **7 Days**, or **30 Days** to compare performance. Graphs show revenue, expenses, profit, cash, and value. **Recent Transactions → View All** helps explain balance changes.
+
+  <Frame>
+    <img
+      src="/images/guides/financial-overview.webp"
+      alt="Financial Overview showing company performance and breakdown controls"
+    />
+  </Frame>
+</Accordion>

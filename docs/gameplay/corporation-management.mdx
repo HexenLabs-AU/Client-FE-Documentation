@@ -1,5 +1,6 @@
 ---
 title: "Manage a corporation"
+sidebarTitle: "Management"
 description: "Set laws and permissions, communicate with members, and inspect the vault and logs."
 ---
 
@@ -9,7 +10,7 @@ Corporation management controls shared rules, membership, and permissions. Open 
 
 The screen includes a freight specialty, **Delivery Tax**, **Company Fuel Card**, and **Company Toll Card**.
 
-Delivery tax takes a chosen share of member earnings, with Federal Contract earnings excluded under the developer's supplied rules.
+Delivery tax takes a chosen share of member earnings, with Federal Contract earnings excluded.
 
 When enabled, **Company Fuel Card covers all member fuel costs** and **Company Toll Card covers all member toll costs**, using corporate funds. Coverage is not limited to corporation-contract deliveries.
 
@@ -19,7 +20,7 @@ Use the invite control to invite a company by name. **Join Rules** offers **Open
 
 The member list offers role controls, **Kick**, and **Make CEO** where your permissions allow them. Review the recipient and action carefully before changing leadership or removing a member.
 
-**Leave Corporation** and **Disband** are separate actions. Outstanding corporation loans restrict leaving or disbanding under the developer's supplied rules.
+**Leave Corporation** and **Disband** are separate actions. Members cannot leave with an active corporation loan. The CEO cannot disband while a member loan is outstanding.
 
 ## Configure role permissions
 
@@ -29,11 +30,27 @@ Permissions cover inviting and removing members, changing ranks and settings, ap
 
 Assign only the permissions you want each role to have; do not assume another corporation uses the same defaults.
 
+<Frame caption="Set laws, joining requirements and role permissions.">
+  <img
+    src="/images/guides/corporation-management.webp"
+    alt="Fleet Empire corporation management interface"
+  />
+</Frame>
+
 ## Communicate and contribute
 
-**Board** offers preset quick-chat messages for coordination across servers. Select a message to send it to the corporation. The recorded screen says board messages last 24 hours.
+**Board** offers preset quick-chat messages for coordination across servers. Select a message to send it to the corporation. Board messages last 24 hours.
 
 **Main Page → Donate to Corp** contributes company cash to the shared vault. The main page also shows corporation level, reputation, member contributions, loyalty, and member status. Your personal company cash and trucks remain separate from corporate resources.
+
+<Accordion title="See the corporation message board">
+  <Frame>
+    <img
+      src="/images/guides/corporation-board.webp"
+      alt="Corporation quick-chat board and preset messages"
+    />
+  </Frame>
+</Accordion>
 
 ## Review member loans
 
@@ -55,33 +72,11 @@ Assign only the permissions you want each role to have; do not assume another co
 
 The corporation leaderboard offers experience, reputation, and value comparisons.
 
-## In-game view
-
-<Frame>
-  <img
-    src="/images/guides/corporation-management.webp"
-    alt="Fleet Empire corporation management interface"
-  />
-</Frame>
-
-_Example company shown; your balances, prices, and available options may differ._
-
-## Board and activity screens
-
-<Frame>
-  <img
-    src="/images/guides/corporation-board.webp"
-    alt="Corporation quick-chat board and preset messages"
-  />
-</Frame>
-
-_Example company shown; your balances, prices, and available options may differ._
-
-<Frame>
-  <img
-    src="/images/guides/corporation-logs.webp"
-    alt="Corporation activity filters and vault transaction summary"
-  />
-</Frame>
-
-_Example company shown; your balances, prices, and available options may differ._
+<Accordion title="See corporation activity filters">
+  <Frame>
+    <img
+      src="/images/guides/corporation-logs.webp"
+      alt="Corporation activity filters and vault transaction summary"
+    />
+  </Frame>
+</Accordion>

@@ -19,50 +19,55 @@
       ]
     },
     {
-      "group": "Your company",
+      "group": "Guides",
       "pages": [
-        "docs/gameplay/headquarters",
-        "docs/gameplay/contracts",
-        "docs/gameplay/bank",
-        "docs/gameplay/insurance",
-        "docs/gettingstarted/game-passes",
-        "docs/gameplay/upgrades-and-licenses",
-        "docs/gameplay/settings",
-        "docs/gameplay/leaderboards-and-logs",
-        "docs/gameplay/shop-and-boosts"
-      ],
-      "expanded": false
-    },
-    {
-      "group": "Fleet and deliveries",
-      "pages": [
-        "docs/gameplay/fleet-and-dealership",
-        "docs/gameplay/vehicle-upgrades",
-        "docs/gameplay/dispatch",
-        "docs/gameplay/marketplace",
-        "docs/gameplay/tolls"
-      ],
-      "expanded": false
-    },
-    {
-      "group": "Staff",
-      "pages": [
-        "docs/gameplay/drivers",
-        "docs/gameplay/dispatchers",
-        "docs/gameplay/fleet-manager",
-        "docs/gameplay/escort-crew"
-      ],
-      "expanded": false
-    },
-    {
-      "group": "Corporations",
-      "pages": [
-        "docs/gameplay/corporations",
-        "docs/gameplay/corporation-businesses",
-        "docs/gameplay/corporation-contracts",
-        "docs/gameplay/corporation-management"
-      ],
-      "expanded": false
+        {
+          "group": "Your company",
+          "expanded": false,
+          "pages": [
+            "docs/gameplay/headquarters",
+            "docs/gameplay/contracts",
+            "docs/gameplay/bank",
+            "docs/gameplay/insurance",
+            "docs/gettingstarted/game-passes",
+            "docs/gameplay/upgrades-and-licenses",
+            "docs/gameplay/settings",
+            "docs/gameplay/leaderboards-and-logs",
+            "docs/gameplay/shop-and-boosts"
+          ]
+        },
+        {
+          "group": "Fleet and deliveries",
+          "expanded": false,
+          "pages": [
+            "docs/gameplay/fleet-and-dealership",
+            "docs/gameplay/vehicle-upgrades",
+            "docs/gameplay/dispatch",
+            "docs/gameplay/marketplace",
+            "docs/gameplay/tolls"
+          ]
+        },
+        {
+          "group": "Staff",
+          "expanded": false,
+          "pages": [
+            "docs/gameplay/drivers",
+            "docs/gameplay/dispatchers",
+            "docs/gameplay/fleet-manager",
+            "docs/gameplay/escort-crew"
+          ]
+        },
+        {
+          "group": "Corporations",
+          "expanded": false,
+          "pages": [
+            "docs/gameplay/corporations",
+            "docs/gameplay/corporation-businesses",
+            "docs/gameplay/corporation-contracts",
+            "docs/gameplay/corporation-management"
+          ]
+        }
+      ]
     },
     {
       "group": "Development",
