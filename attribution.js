@@ -11,7 +11,8 @@
     " Original documentation and design contributions by HexenLabs. " +
     "Copyright (c) 2026 HexenLabs — https://hexenlabs.com.au. " +
     "Attribution requirements: see the source repository LICENSE. ";
-  const target = document.body || document.documentElement;
+  function addAttribution() {
+    const target = document.body || document.documentElement;
 
   const exists = Array.from(target.childNodes).some(
     (node) => node.nodeType === Node.COMMENT_NODE && node.data === attribution
@@ -20,4 +21,8 @@
   if (!exists) {
     target.prepend(document.createComment(attribution));
   }
+  }
+
+  addAttribution();
+  window.addEventListener("mintlify:navigate", addAttribution);
 })();
