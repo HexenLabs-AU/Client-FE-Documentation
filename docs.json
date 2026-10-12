@@ -42,7 +42,7 @@
       "claude",
       "copy"
     ],
-    "display": "toc"
+    "display": "header"
   },
   "icons": {
     "library": "fontawesome"
@@ -57,8 +57,9 @@
     "default": "light"
   },
   "banner": {
-    "content": "🚧 **ALPHA — Jump in early!** Expect bugs and ongoing changes. Your feedback helps shape the game.",
-    "dismissible": true
+    "content": "**Fleet Empire is in alpha.** Expect minor bugs and ongoing updates. [Share feedback on Discord](https://discord.gg/xtvqCYBDYp).",
+    "dismissible": true,
+    "type": "info"
   },
   "styling": {
     "eyebrows": "section",
