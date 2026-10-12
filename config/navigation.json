@@ -1,0 +1,25 @@
+{
+  "groups": [
+    {
+      "group": "Getting Started",
+      "pages": [
+        "docs/index",
+        "docs/gettingstarted/codes",
+        "docs/gettingstarted/faq"
+      ]
+    },
+    {
+      "group": "Gameplay",
+      "pages": [
+        "docs/gameplay/corporations",
+        "docs/gameplay/tolls"
+      ]
+    },
+    {
+      "group": "Development",
+      "pages": [
+        "docs/developer/update-log"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+/* Increase both navbar logo variants */
+#navbar img[src*="robloxLogoWith"] {
+    height: 48px !important;
+    width: auto !important;
+    max-height: none !important;
+  }

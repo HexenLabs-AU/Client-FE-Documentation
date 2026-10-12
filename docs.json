@@ -1,0 +1,87 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Fleet Empire",
+  "colors": {
+    "primary": "#2563EB",
+    "light": "#93C5FD",
+    "dark": "#1D4ED8"
+  },
+  "favicon": {
+    "light": "/images/branding/robloxLogo.webp",
+    "dark": "/images/branding/robloxLogo.webp"
+  },
+  "navigation": {
+    "$ref": "./config/navigation.json"
+  },
+  "logo": {
+    "light": "/images/branding/robloxLogoWithDarkText.png",
+    "dark": "/images/branding/robloxLogoWithLightText.png"
+  },
+  "navbar": {
+    "links": [
+      {
+        "href": "https://www.roblox.com/games/128776499486135/Fleet-Empire",
+        "label": "Roblox",
+        "icon": "/images/externalBranding/roblox.svg"
+      }
+    ],
+    "primary": {
+      "type": "discord",
+      "href": "https://discord.gg/xtvqCYBDYp"
+    }
+  },
+  "contextual": {
+    "options": [
+      {
+        "title": "Contact Support",
+        "description": "Get help from our community and staff",
+        "icon": "comments",
+        "href": "https://discord.gg/xtvqCYBDYp"
+      },
+      "claude",
+      "copy"
+    ],
+    "display": "toc"
+  },
+  "icons": {
+    "library": "fontawesome"
+  },
+  "background": {
+    "color": {
+      "light": "#FFFFFF",
+      "dark": "#111827"
+    }
+  },
+  "appearance": {
+    "default": "light"
+  },
+  "banner": {
+    "content": "🚧 **ALPHA — Jump in early!** Expect bugs and ongoing changes. Your feedback helps shape the game.",
+    "dismissible": true
+  },
+  "styling": {
+    "eyebrows": "section",
+    "codeblocks": "system",
+    "latex": true
+  },
+  "metadata": {
+    "timestamp": true
+  },
+  "interaction": {
+    "drilldown": true
+  },
+  "errors": {
+    "404": {
+      "redirect": false,
+      "title": "404 — Looks like we took a wrong turn",
+      "description": "This page fell off the truck. Let’s head back home."
+    }
+  },
+  "thumbnails": {
+    "background": "/images/branding/robloxLogo.webp"
+  },
+  "fonts": {
+    "family": "Inter"
+  }
+}
