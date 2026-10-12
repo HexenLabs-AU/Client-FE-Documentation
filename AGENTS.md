@@ -56,6 +56,10 @@ Use routes from the current navigation tree. Existing guide paths are nested und
 - License and bank-loan levels, costs, and terms require developer confirmation. Financing varies with company level and upgrades; explain the dependency without inventing fixed thresholds.
 - Put uncertain procedures or rules in a suggested-name.drafts.mdx file under docs/review. Mark these pages hidden and noindex, and keep their group hidden. Hidden pages are not access-controlled; do not place private information in them.
 - Each draft must include its recording timestamps, observations, and specific questions. Never present an uncompleted action as a tested walkthrough.
-- Use screenshots from the recording as examples. Keep text descriptions complete, include meaningful alt text, and provide MDX comments where replacement images can be added.
+- Place useful screenshots visibly beside related instructions. Reserve expandable blocks for secondary images. Keep text descriptions complete, include meaningful alt text and captions for example values, and provide MDX comments where replacement images can be added.
+- Use a soft blue-gray light background (#EEF3F9), blue accents, and the native grid decoration. Preserve readable contrast.
+- Driver hiring previews with odds and the next five purchases are specific to Australia/UK; describe other regions as random rolls.
+- Start beginner guides with the Cargo Van assigned to the player. Dispatch Load starts a delivery; rewards arrive when it is delivered. Do not require a fixed RNG load as a tutorial example.
+- Truck financing requires at least 500 credit score; additional availability depends on company level and upgrades.
 - Use a subtle native grid background. Preserve readable space, blue accents, Inter, and the current logo sizing.
 - Keep public navigation grouped by player task: Getting Started, Your company, Fleet and deliveries, Staff, Corporations, Development.

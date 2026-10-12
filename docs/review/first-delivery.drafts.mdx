@@ -5,36 +5,31 @@ hidden: true
 noindex: true
 ---
 
-<Warning>
-  Review draft — not confirmed player guidance. Keep this page hidden and excluded from search until the questions below are answered.
-</Warning>
+<Note>
+  The main first-delivery flow is confirmed and documented in [Start your company](/docs/gettingstarted/how-to-play). This review page now tracks only the exact personal-vehicle assignment control.
+</Note>
 
-## Evidence to review
+## Confirmed by the developer
 
-Source: the supplied UI recording, **Manual dispatch at 01:08–01:16**.
+- A new player should buy a Cargo Van and assign the first vehicle to themselves.
+- In Manual Dispatch, the player's vehicle is represented by Your Truck.
+- The final review button is **Dispatch Load**, as shown in the supplied screenshot.
+- After dispatch, wait for the load to be delivered. Delivery rewards are credited when it is delivered.
+- Loads vary through RNG; a fixed example run or guaranteed freight is not required for the walkthrough.
 
-- The recording reaches Driver → Load Board → Review, but the chosen truck is broken. The final dispatch action and successful completion are not shown.
+## Remaining question
 
-## Questions for the developer
+What is the exact menu path and button label for assigning the first Cargo Van to yourself? The guide currently states the confirmed action without inventing this control.
 
-1. What is the exact final button label and any confirmation step for a ready Cargo Van?
-2. Does a new player use their personal truck first, a hired driver, or either?
-3. What happens after clicking the final dispatch action: driving controls, timer, payout, and where rewards are claimed?
-4. Please provide one successful starter delivery with the truck idle and ready.
+## Reference screenshot
 
-## Publication checklist
+<Frame>
+  <img
+    src="/images/guides/dispatch-load.png"
+    alt="Ready Manual Dispatch review with the Dispatch Load button"
+  />
+</Frame>
 
-- Replace observations with confirmed current rules.
-- Document variable values and their dependencies instead of one account’s numbers.
-- Add a successful action walkthrough where the recording stops before confirmation.
-- Add or replace screenshots as needed.
-- Remove the draft warning and publish only after review.
+_The screenshot shows an existing company's hired driver and tanker. It confirms the dispatch button, rather than a fixed starter vehicle, route, or reward._
 
-{/* Add the confirmed walkthrough and screenshots here. */}
-
-<Accordion title="See the in-game screen">
-  <Frame>
-    <img src="/images/guides/dispatch-review.webp" alt="Fleet Empire dispatch review interface" />
-  </Frame>
-  Recorded with an existing company. Your balance, available options, prices, and limits may differ.
-</Accordion>
+{/* Add a screenshot of the initial personal Cargo Van assignment control here. */}
