@@ -35,21 +35,24 @@
     "options": [
       {
         "title": "Contact Support",
-        "description": "Get help from our community & staff",
-        "icon": "discord",
+        "description": "Get help from our community and staff",
+        "icon": "comments",
         "href": "https://discord.gg/xtvqCYBDYp"
-      }
+      },
+      "claude",
+      "copy"
     ],
-    "display": "toc"
+    "display": "header"
   },
   "icons": {
     "library": "fontawesome"
   },
   "background": {
     "color": {
-      "light": "#F7F8FA",
-      "dark": "#111113"
-    }
+      "light": "#EEF3F9",
+      "dark": "#111827"
+    },
+    "decoration": "grid"
   },
   "appearance": {
     "default": "dark"
@@ -88,5 +91,10 @@
       "destination": "/docs",
       "permanent": false
     }
-  ]
+  ],
+  "banner": {
+    "content": "**Fleet Empire is in alpha.** Expect minor bugs and ongoing updates. [Share feedback on Discord](https://discord.gg/xtvqCYBDYp).",
+    "dismissible": true,
+    "type": "info"
+  }
 }
