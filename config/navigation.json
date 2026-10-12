@@ -5,17 +5,31 @@
       "pages": [
         "docs/index",
         "docs/gettingstarted/how-to-play",
+        "docs/gettingstarted/interface-tour",
         "docs/gettingstarted/codes",
         "docs/gettingstarted/game-passes",
         "docs/gettingstarted/faq"
       ]
     },
     {
-      "group": "Gameplay",
+      "group": "Your company",
       "pages": [
         "docs/gameplay/corporations",
         "docs/gameplay/tolls"
-      ]
+      ],
+      "expanded": false
+    },
+    {
+      "group": "Fleet and deliveries",
+      "pages": []
+    },
+    {
+      "group": "Staff",
+      "pages": []
+    },
+    {
+      "group": "Corporations",
+      "pages": []
     },
     {
       "group": "Development",
@@ -32,6 +46,12 @@
         "snippets/launch-codes",
         "snippets/community-links"
       ]
+    },
+    {
+      "group": "Drafts for review",
+      "hidden": true,
+      "expanded": false,
+      "pages": []
     }
   ]
 }

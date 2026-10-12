@@ -1,141 +1,66 @@
 ---
-title: "How to play"
-sidebarTitle: "How to play"
-description: "A beginner's guide to deliveries, fleet growth, finances, tolls, and corporations."
-hidden: true
-noindex: true
+title: "Start your company"
+description: "Buy your first cargo van, hire a driver, and prepare to find freight."
 ---
 
-import CorporationOffline from "/snippets/corporation-offline.mdx";
+Your first goal is to get a vehicle and a driver ready for work. Start with a cargo van, then learn where to check fuel, find freight, and review a job.
 
-Start with a cargo van, complete deliveries, and build your transportation company over time. This guide introduces the main systems and links to the detailed guides.
+<Steps>
+  <Step title="Buy a cargo van">
+    Open **Fleet → Dealership → Small Vehicles → Cargo Van → Purchase**.
 
-<Note>
-Draft: the first-delivery controls are awaiting confirmation. Screenshot spaces below are ready for you to replace with images.
-</Note>
+    Review the purchase price before buying. The dealership also offers customization and financing; you can explore those when you are ready to expand.
+  </Step>
+  <Step title="Hire a driver">
+    Open **Staff** and roll a **Day Labor** driver. Use **Assign vehicle** underneath to assign your van.
 
-## 1. Start with your cargo van
+    When reviewing a candidate, check their **Driver Cut**, speed, safety, and fuel bonuses. The driver cut is the share of delivery earnings the driver receives.
+  </Step>
+  <Step title="Check your company">
+    Open **Headquarters → Overview** to check the shared fuel reserve. Your fleet draws from this reserve.
 
-Your company begins with a cargo van. Use this as the starting point for learning how freight and deliveries work before expanding your fleet.
+    Use **Staff → Drivers** to check your driver and assigned vehicle. A busy or broken truck cannot take a new manual load in the recorded interface.
+  </Step>
+  <Step title="Find freight">
+    Open **Dispatch → Manual Dispatch**. Select an available driver, then review the **Load Board**.
 
-Open [Fleet Empire on Roblox](https://www.roblox.com/games/128776499486135/Fleet-Empire) to begin.
+    Compare payout, distance, freight type, and toll costs. Selecting a load opens **Review**, where you can check the assigned truck, estimated time, and the amount you keep after the driver's cut.
+  </Step>
+</Steps>
 
-<Frame>
-  Screenshot placeholder: the new-company screen and starter cargo van.
-</Frame>
+## Know where to look next
 
-{/* Replace the frame above with an image once available:
-<Frame>
-  <img src="/images/guides/getting-started/starter-van.png" alt="The starter cargo van and new-company screen in Fleet Empire" />
-</Frame>
-*/}
+<Columns cols={2}>
+  <Card title="Read the dispatch screen" href="/docs/gameplay/dispatch">
+    Understand load filters, job review, and automatic priorities.
+  </Card>
 
-## 2. Complete your first delivery
+  <Card title="Manage your money" href="/docs/gameplay/bank">
+    Find cash, bank funds, payment sources, and financial reports.
+  </Card>
 
-The core activity is finding freight and completing deliveries. The exact steps for obtaining your starter van, accepting a load, starting a delivery, and receiving payment still need to be confirmed.
+  <Card title="Keep your fleet working" href="/docs/gameplay/vehicle-upgrades">
+    Check vehicle parts and understand upgrades.
+  </Card>
 
-**First-delivery walkthrough to add:**
+  <Card title="Claim reward codes" href="/docs/gettingstarted/codes">
+    Find the code field in Settings.
+  </Card>
+</Columns>
 
-- Where a new player gets their cargo van.
-- Which menu displays available freight.
-- Which button accepts or selects a load.
-- How the player starts the delivery.
-- How the delivery finishes and when the reward is received.
+The [interface tour](/docs/gettingstarted/interface-tour) explains the rest of the sidebar.
 
-<Frame>
-  Screenshot placeholder: the freight selection screen, with the confirmed action highlighted.
-</Frame>
+{/* Optional replacement image: add a fresh-company Cargo Van purchase screenshot here. */}
 
-{/* Future image: /images/guides/getting-started/choose-freight.png
-Suggested alt text: Available freight and the button used to select a delivery.
-*/}
+{/* Optional replacement image: add a fresh-company Assign vehicle screenshot here. */}
 
-<Frame>
-  Screenshot placeholder: the delivery screen showing how to start and track a delivery.
-</Frame>
+<Accordion title="See the in-game screen">
+  <Frame>
+    <img
+      src="/images/guides/hire-drivers.webp"
+      alt="Fleet Empire hire drivers interface"
+    />
+  </Frame>
 
-{/* Future image: /images/guides/getting-started/start-delivery.png
-Suggested alt text: The confirmed controls for starting and tracking a delivery.
-*/}
-
-## 3. Build your fleet and team
-
-You can buy trucks, rent vehicles, and hire drivers as your company grows. Fleet Empire is a semi-idle management game, and building a large fleet is a long-term progression goal.
-
-A useful approach is to learn the delivery process before expanding. Decide whether your next purchase should be a vehicle or another driver based on what you need for your company.
-
-For announced reward codes, see [Codes](/docs/gettingstarted/codes).
-
-<Warning>
-Keep an open driver slot before claiming the `500K` code, which awards a Legendary driver.
-</Warning>
-
-<Frame>
-  Screenshot placeholder: your fleet and driver management screens.
-</Frame>
-
-{/* Future image: /images/guides/getting-started/fleet-and-drivers.png
-Suggested alt text: Fleet and driver management screens in Fleet Empire.
-*/}
-
-## 4. Check your finances before logging out
-
-If you have loans or financed vehicles, make sure your **Bank** has enough money to cover payments while you're away.
-
-| Money or payment | What happens while you're offline |
-| --- | --- |
-| Offline earnings | Go into escrow and are claimed when you return. |
-| Bank balance | Must be sufficient to cover your offline loan and finance payments. |
-| Loan and finance payments | Continue while you're offline, without a time cap. |
-
-<Warning>
-Offline earnings do not go straight into your Bank. They cannot cover payments while you're away.
-</Warning>
-
-The **Financial Management** tab in the Bank lets you choose whether bills and purchases use cash or bank funds. Read [Why were my trucks repossessed?](/docs/gettingstarted/faq) for the offline payment explanation.
-
-<Frame>
-  Screenshot placeholder: the Bank and Financial Management screens, showing the relevant balances and payment settings.
-</Frame>
-
-{/* Future image: /images/guides/getting-started/bank-and-payments.png
-Suggested alt text: Bank balance and Financial Management payment settings.
-*/}
-
-## 5. Understand toll costs
-
-Some states charge tolls per axle. Count the axles on both your truck and trailer, rather than individual tires.
-
-For example, a truck with three axles and a trailer with two axles has five axles total.
-
-On the Pennsylvania Turnpike, the rate is **\$60.80 per axle**:
-
-**\$60.80 × 5 = \$304.00**
-
-You can avoid tolls, but your trip will take longer. Check [Tolls](/docs/gameplay/tolls) for the full rate table.
-
-<Frame>
-  Screenshot placeholder: the route settings showing the option to avoid tolls.
-</Frame>
-
-{/* Future image: /images/guides/getting-started/toll-options.png
-Suggested alt text: The confirmed route setting for avoiding tolls.
-*/}
-
-## 6. Explore corporations
-
-Corporations let companies work together, manage businesses, and complete contracts.
-
-To create your own corporation, you need **company level 10 or above** and **\$6,000,000**. A corporation must reach **level 3** before it can buy a business.
-
-<CorporationOffline />
-
-Read [Corporations](/docs/gameplay/corporations) for taxes, fuel coverage, business production, contracts, and member loans.
-
-## Your next steps
-
-- Learn the confirmed first-delivery controls before expanding your fleet.
-- Check your Bank balance before going offline if you have loans or financed vehicles.
-- Use [Codes](/docs/gettingstarted/codes) for the announced reward list.
-- Read the [FAQ](/docs/gettingstarted/faq) if you run into a question.
-- Follow the [Update Log](/docs/developer/update-log) as the alpha changes.
+  Recorded with an existing company. Your balance, available options, prices, and limits may differ.
+</Accordion>
