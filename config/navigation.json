@@ -33,7 +33,8 @@
         "docs/gameplay/dispatch",
         "docs/gameplay/marketplace",
         "docs/gameplay/tolls"
-      ]
+      ],
+      "expanded": false
     },
     {
       "group": "Staff",
@@ -42,7 +43,8 @@
         "docs/gameplay/dispatchers",
         "docs/gameplay/fleet-manager",
         "docs/gameplay/escort-crew"
-      ]
+      ],
+      "expanded": false
     },
     {
       "group": "Corporations",
@@ -75,7 +77,9 @@
       "expanded": false,
       "pages": [
         "docs/review/first-delivery.drafts",
-        "docs/review/licenses.drafts"
+        "docs/review/licenses.drafts",
+        "docs/review/bank-loans.drafts",
+        "docs/review/truck-financing.drafts"
       ]
     }
   ]

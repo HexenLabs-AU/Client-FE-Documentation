@@ -1,0 +1,43 @@
+---
+title: "Bank loan eligibility and terms — draft"
+description: "Questions and recording evidence awaiting developer confirmation."
+hidden: true
+noindex: true
+---
+
+<Warning>
+  Review draft — not confirmed player guidance. Keep this page hidden and excluded from search until the questions below are answered.
+</Warning>
+
+## Evidence to review
+
+Source: the supplied UI recording, **Bank at 01:55–02:03**.
+
+- Small Business Loan, Fleet Expansion Loan, and Commercial Loan cards are visible.
+- Deposit fees, bank interest, caps, and interval labels are also shown; these are not yet confirmed universal rules.
+
+## Questions for the developer
+
+1. Confirm the company-level requirement, amount/range, interest calculation, term, and installment for each bank loan.
+2. Can upgrades change loan availability, amounts, rates, or concurrent loan limits?
+3. Confirm deposit fee, interest rate, interest interval, eligible balance cap, and whether interest runs offline.
+4. How do early repayment, missed payments, and repossession work?
+5. Does Financial Management AUTO fallback also apply offline to loan and finance payments, or must all offline payments use Bank?
+6. Do payments continue without an offline cap, and is offline delivery income unavailable in escrow until login?
+
+## Publication checklist
+
+- Replace observations with confirmed current rules.
+- Document variable values and their dependencies instead of one account’s numbers.
+- Add a successful action walkthrough where the recording stops before confirmation.
+- Add or replace screenshots as needed.
+- Remove the draft warning and publish only after review.
+
+{/* Add the confirmed walkthrough and screenshots here. */}
+
+<Accordion title="See the in-game screen">
+  <Frame>
+    <img src="/images/guides/bank.webp" alt="Fleet Empire bank interface" />
+  </Frame>
+  Recorded with an existing company. Your balance, available options, prices, and limits may differ.
+</Accordion>
