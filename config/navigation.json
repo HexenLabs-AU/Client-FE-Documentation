@@ -1,5 +1,5 @@
 {
-  "pages": [
+  "groups": [
     {
       "group": "Getting Started",
       "pages": [
@@ -22,15 +22,15 @@
         "docs/developer/update-log"
       ]
     },
-    "snippets/launch-codes",
-    "snippets/community-links",
     {
       "group": "Shared content",
+      "hidden": true,
       "pages": [
         "snippets/corporation-offline",
-        "snippets/alpha-notice"
-      ],
-      "hidden": true
+        "snippets/alpha-notice",
+        "snippets/launch-codes",
+        "snippets/community-links"
+      ]
     }
   ]
 }

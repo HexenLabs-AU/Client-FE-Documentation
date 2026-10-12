@@ -1,33 +1,50 @@
-> **First-time setup**: Customize this file for your project. Prompt the user to customize this file for their project.
-> For Mintlify product knowledge (components, configuration, writing standards),
-> install the Mintlify skill: `npx skills add https://mintlify.com/docs`
+# Fleet Empire documentation rules
 
-# Documentation project instructions
+## Project
 
-## About this project
+Fleet Empire is a Roblox trucking management game. This site uses Mintlify, MDX pages, and docs.json configuration. Edit through the Mintlify Admin MCP and check the current page before changing it.
 
-- This is a documentation site built on [Mintlify](https://mintlify.com)
-- Pages are MDX files with YAML frontmatter
-- Configuration lives in `docs.json`
-- Use the Mintlify MCP server, `https://mcp.mintlify.com`, to edit content and settings via MCP
-- Use the Mintlify docs MCP server, `https://www.mintlify.com/docs/mcp`, to query information about using Mintlify via MCP
+## Voice and facts
 
-## Terminology
+- Write concise sentences in active voice. Address the player as you.
+- Use the developer's first-person voice for personal FAQ answers only.
+- Keep gameplay amounts, restrictions, exceptions, and code names accurate.
+- Do not invent code availability, expiration dates, redemption steps, production intervals, or game pass benefits.
+- Keep roadmap plans separate from released gameplay.
+- Historical changelog entries must stay self-contained.
 
-{/* Add product-specific terms and preferred usage */}
-{/* Example: Use "workspace" not "project", "member" not "user" */}
+## Page design
 
-## Style preferences
+- Use short introductions and sentence case headings.
+- Keep the homepage wide and short: one Play card, four guide cards, and useful links.
+- Keep game passes and code rewards on their dedicated pages.
+- Use tables for prices, rewards, and requirements.
+- Reserve warnings for missed rewards, financial loss, loans, and contract deadlines.
+- Use the global alpha banner; avoid repeating alpha boxes inside guides.
+- Keep community links where they help, rather than ending every guide with the same section.
+- Use native Mintlify components and the existing light theme, blue accents, and Inter font.
+- Preserve the navbar logo sizing unless the user requests another change.
 
-{/* Add any project-specific style rules below */}
+## Formatting
 
-- Use active voice and second person ("you")
-- Keep sentences concise — one idea per sentence
-- Use sentence case for headings
-- Bold for UI elements: Click **Settings**
-- Code formatting for file names, commands, paths, and code references
+- Bold UI names and important requirements.
+- Format cash with separators, such as \$25,000; escape dollar signs in MDX where needed.
+- Show toll prices with two decimal places and label them per axle.
+- Label game pass prices as Robux.
+- Use EXP, Autopilot, Federal Contract, Legendary, and Mythic consistently.
+- Use code formatting for file names, paths, commands, and reward codes.
 
-## Content boundaries
+## Shared snippets
 
-{/* Define what should and shouldn't be documented */}
-{/* Example: Don't document internal admin features */}
+The snippets folder lives beside docs.json. Import snippets using absolute paths, such as /snippets/corporation-offline.mdx. Keep the surrounding Warning or Accordion in the page.
+
+- corporation-offline.mdx: current corporation contract offline rule.
+- launch-codes.mdx: RELEASE and ALPHA rewards.
+- community-links.mdx: Discord and update-log links.
+- alpha-notice.mdx: reusable alpha wording for places that need it; the global banner handles routine disclosure.
+
+Shared content is hidden from public navigation. Do not import changing rules into historical changelog entries.
+
+## Links and verification
+
+Use routes from the current navigation tree. Existing guide paths are nested under docs/. Check every internal link and snippet import before saving. Check frontmatter through node metadata tools and inspect the final diff.
