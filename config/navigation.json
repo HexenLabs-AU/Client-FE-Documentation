@@ -53,7 +53,8 @@
         "docs/gameplay/corporation-businesses",
         "docs/gameplay/corporation-contracts",
         "docs/gameplay/corporation-management"
-      ]
+      ],
+      "expanded": false
     },
     {
       "group": "Development",
@@ -79,7 +80,10 @@
         "docs/review/first-delivery.drafts",
         "docs/review/licenses.drafts",
         "docs/review/bank-loans.drafts",
-        "docs/review/truck-financing.drafts"
+        "docs/review/truck-financing.drafts",
+        "docs/review/marketplace.drafts",
+        "docs/review/insurance.drafts",
+        "docs/review/contracts.drafts"
       ]
     }
   ]
