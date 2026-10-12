@@ -3,6 +3,8 @@ title: "Corporations"
 description: "Create a corporation, manage members and finances, purchase businesses, and run contracts."
 ---
 
+import CorporationOffline from "/snippets/corporation-offline.mdx";
+
 A corporation brings companies together to manage businesses, share benefits, and complete contracts.
 
 ## Start a corporation
@@ -29,7 +31,7 @@ Company tax takes your chosen percentage from each member's daily earnings.
 
 When fuel coverage is enabled, members are reimbursed whenever they purchase fuel. Reimbursements come from the corporation's bank account.
 
-Corporations can also pay for tolls. See [Tolls](/tolls) for rates and axle calculations.
+Corporations can also pay for tolls. See [Tolls](/docs/gameplay/tolls) for rates and axle calculations.
 
 ## Reputation and loyalty
 
@@ -61,7 +63,7 @@ When outsourcing a contract, you choose the percentage your corporation keeps fo
 If your corporation does not own a business yet, you can still look for work on the corporation contract board and arrange a contract with another corporation.
 
 <Warning>
-Corporation contracts do not progress while you're offline. Stay online to complete deliveries before the deadline.
+<CorporationOffline />
 </Warning>
 
 ## Corporation upgrades
@@ -77,7 +79,3 @@ Loans must be approved by the CEO or someone with permission to approve them thr
 <Warning>
 A member cannot leave the corporation while they have an active corporation loan. The CEO cannot disband the corporation while a member loan remains outstanding.
 </Warning>
-
-## Keep up with changes
-
-Fleet Empire is in alpha, and corporation features may change. Check the [Update Log](/update-log) for release history and the [FAQ](/faq) for common questions.

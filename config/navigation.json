@@ -5,6 +5,7 @@
       "pages": [
         "docs/index",
         "docs/gettingstarted/codes",
+        "docs/gettingstarted/game-passes",
         "docs/gettingstarted/faq"
       ]
     },
@@ -19,6 +20,16 @@
       "group": "Development",
       "pages": [
         "docs/developer/update-log"
+      ]
+    },
+    {
+      "group": "Shared content",
+      "hidden": true,
+      "pages": [
+        "snippets/corporation-offline",
+        "snippets/alpha-notice",
+        "snippets/launch-codes",
+        "snippets/community-links"
       ]
     }
   ]

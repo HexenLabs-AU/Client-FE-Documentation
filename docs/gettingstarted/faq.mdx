@@ -1,7 +1,10 @@
 ---
 title: "Frequently Asked Questions"
+sidebarTitle: "FAQ"
 description: "Answers to common questions about Fleet Empire, development, and gameplay."
 ---
+
+import CorporationOffline from "/snippets/corporation-offline.mdx";
 
 Find answers about the game's development, progression, and offline payments.
 
@@ -45,11 +48,13 @@ Find answers about the game's development, progression, and offline payments.
 
     Before logging out, make sure your Bank has enough money to cover the time you expect to be away.
 
-    See [Corporations](/corporations) for the separate rules that apply to corporation member loans.
+    See [Corporations](/docs/gameplay/corporations) for the separate rules that apply to corporation member loans.
   </Accordion>
 
   <Accordion title="Do corporation contracts work offline?">
-    No. Corporation contracts require you to be online, and this is intentional.
+    <CorporationOffline />
+
+    This is intentional.
 
     I estimate that supporting offline progress for these multiplayer contracts would require processing more than 40,000 offline player accounts in the background, creating unnecessary server load and lag.
   </Accordion>
